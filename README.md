@@ -32,7 +32,8 @@ Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.
 
 ## 🖥️ Wallpapers
-Huge thanks to @ linuxdotexe for these beautiful wallpapers!
+Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on GitHub") for these beautiful wallpapers!
+
 [nordic-wallpapers](https://github.com/linuxdotexe/nordic-wallpapers "nordic-wallpapers on GitHub")
 
 ## 👨‍💻 Dependencies
