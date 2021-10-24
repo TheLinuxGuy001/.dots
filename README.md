@@ -21,7 +21,7 @@ SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE I
 
 [Installation](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-installation)
 
-# 🔷 nord-dotfiles
+# 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
 ![Dotfiles triple Screenshot](https://cdn.upload.systems/uploads/dwP8F6r5.png)
