@@ -116,6 +116,6 @@ source $ZSH/oh-my-zsh.sh
 toilet -f mono12 -F metal FAARIS
 neofetch --config ~/.config/neofetch/blockfetch.conf 
 
-#--kitty "/home/faaris/.config/neofetch/SonicBig.png" --image_size none
+#--kitty "~/.config/neofetch/SonicBig.png" --image_size none
 
 export PATH="~/git/rsClock/target/release:$PATH"
