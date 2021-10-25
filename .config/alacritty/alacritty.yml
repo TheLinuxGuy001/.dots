@@ -1,16 +1,8 @@
-# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
-
-# Project:    Nord Alacritty
-# Version:    0.1.0
-# Repository: https://github.com/arcticicestudio/nord-alacritty
-# License:    MIT
-# References:
-#   https://github.com/alacritty/alacritty
+## ALACRITTY
 
 offset:
   x: -20
-  y: -1
+  y: -20
 
 colors:
   primary:
@@ -63,19 +55,19 @@ colors:
 
 font:
   normal:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Normal
 
   bold:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Bold
 
   italic:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Italic
 
   bold_italic:
-    family: MesloLGS NF
+    family: Hack Nerd Font
     style: Bold Italic
 
   size: 12.5
