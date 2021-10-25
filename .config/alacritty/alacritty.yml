@@ -80,7 +80,7 @@ font:
 
   size: 12.5
  
-background_opacity: 0.85
+background_opacity: 0.8
 
 gtk_theme_variant: dark
 
