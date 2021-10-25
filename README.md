@@ -24,7 +24,7 @@ SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE I
 # 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![Dotfiles triple Screenshot](https://cdn.upload.systems/uploads/dwP8F6r5.png)
+![DotfilesScreenshot](https://cdn.discordapp.com/attachments/849721525601828885/901866899632181288/New_Project.png)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.
@@ -87,7 +87,6 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 # git clone https://github.com/FaarisAnsari/dotfiles.git && cd dotfiles
 # cp -i .config ~/.config
 # cp -i .zshrc ~/.zshrc
-# cp -i .xprofile ~/.xprofile
 # cp -i .scripts ~/.scripts
 
 (or symlink if you know what you're doing.)
