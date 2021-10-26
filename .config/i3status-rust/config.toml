@@ -42,6 +42,7 @@ idle_fg = "#718ca8"
 
 [[block]]
 block = "sound"
+max_vol = 100
 [block.theme_overrides]
 idle_bg = "#3b4252"
 idle_fg = "#718ca8"

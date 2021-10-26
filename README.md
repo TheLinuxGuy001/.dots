@@ -42,7 +42,7 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [NightTab](https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki?hl=en-GB "NightTab on Chrome Webstore")
 
-[Alacritty](https://github.com/alacritty/alacritty "Alacritty on GitHub")
+[Kitty](https://github.com/kovidgoyal/kitty "Kitty on GitHub")
 
 [Cava](https://github.com/karlstav/cava "Cava on GitHub")
 
@@ -85,9 +85,9 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 ```
 # git clone https://github.com/FaarisAnsari/dotfiles.git && cd dotfiles
-# cp -i .config ~/.config
+# cp -ir .config ~/.config
 # cp -i .zshrc ~/.zshrc
-# cp -i .scripts ~/.scripts
+# cp -ir .scripts ~/.scripts
 
 (or symlink if you know what you're doing.)
 ```
