@@ -6,7 +6,7 @@ block = "focused_window"
 max_width = 50
 show_marks = "visible"
 [block.theme_overrides]
-idle_bg = "#2e3440"
+idle_bg = "#3b4252"
 idle_fg = "#718ca8"
 
 [[block]]
@@ -14,7 +14,7 @@ block = "weather"
 format = "{weather_verbose} {temp}"
 service = { name = "openweathermap", api_key = "24e8f05e46f42d367e05181472312479", city_id = "2636663", units = "metric" }
 [block.theme_overrides]
-idle_bg = "#3b4252"
+idle_bg = "#2e3440"
 idle_fg = "#718ca8"
 
 [[block]]
@@ -22,20 +22,12 @@ block = "memory"
 display_type = "memory"
 format_mem = "{mem_used}"
 [block.theme_overrides]
-idle_bg = "#2e3440"
+idle_bg = "#3b4252"
 idle_fg = "#718ca8"
 
 [[block]]
 block = "cpu"
 interval = 1
-[block.theme_overrides]
-idle_bg = "#3b4252"
-idle_fg = "#718ca8"
-
-[[block]]
-block = "load"
-interval = 1
-format = "{1m}"
 [block.theme_overrides]
 idle_bg = "#2e3440"
 idle_fg = "#718ca8"
