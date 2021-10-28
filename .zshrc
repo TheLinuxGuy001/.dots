@@ -114,5 +114,5 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 toilet -f mono12 -F metal FAARIS
-neofetch --config ~/.config/neofetch/blockfetch.conf 
+neofetch --config ~/.config/neofetch/pacfetch.conf 
 #--kitty "~/.config/neofetch/SonicBig.png" --image_size none

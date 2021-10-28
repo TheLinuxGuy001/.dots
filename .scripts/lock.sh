@@ -1,5 +1,5 @@
 #!/bin/bash
-ICON=$HOME/.xlock/icon.png
+ICON=$HOME/.scripts/icon.png
 TMPBG=/tmp/screen.png
 scrot /tmp/screen.png
 convert $TMPBG -scale 10% -scale 1000% $TMPBG
