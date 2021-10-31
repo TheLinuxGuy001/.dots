@@ -199,7 +199,7 @@ exec --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 169.83
 exec --no-startup-id nvidia-settings -a "DigitalVibrance=400"
 exec --no-startup-id ~/.scripts/xidlehook.sh
 exec --no-startup-id xset s off
-exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
+# exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
 
 ## Remove Title Bars.
 for_window [class="^.*"] border pixel 1
@@ -209,12 +209,13 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 
 ## app open keybindings
 bindsym $mod+t exec kitty
-bindsym $mod+b exec chromium
+bindsym $mod+b exec microsoft-edge-stable
 bindsym $mod+f exec nautilus
 #bindsym $mod+d exec discord-canary
 bindsym $mod+Print exec gnome-screenshot -a
 bindsym Print exec gnome-screenshot
 bindsym $mod+Shift+Escape exec ~/.scripts/lock.sh
+bindsym $mod+Shift+w exec ~/.scripts/rice.sh
 
 ## other configurations
 focus_follows_mouse no

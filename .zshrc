@@ -110,6 +110,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias rm='rm -i'
+alias ..='cd ..'
+alias mv='mv -i'
+alias g='git'
+alias la='ls -A'
+alias cp='cp -i'
+alias ls='ls --color=auto'
+
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 

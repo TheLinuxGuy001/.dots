@@ -19,7 +19,7 @@ bison
 blender
 bluez-utils
 bridge-utils
-btop
+btop-git
 chrome-gnome-shell
 cmake
 cmatrix
@@ -122,6 +122,7 @@ lib32-vulkan-icd-loader
 libgnome-keyring
 libreoffice-fresh
 libtool
+libusb-git
 lightdm
 lightdm-webkit-theme-aether
 lightdm-webkit2-greeter
@@ -137,6 +138,7 @@ m4
 make
 mednafen
 memtest86-efi
+microsoft-edge-stable-bin
 mingw-w64-binutils
 mingw-w64-crt
 mingw-w64-gcc
@@ -176,6 +178,8 @@ os-prober
 paru
 patch
 pavucontrol
+perl-anyevent-i3
+perl-json-xs
 pfetch
 picom-ibhagwan-git
 pipewire-alsa
@@ -226,6 +230,7 @@ ttf-twemoji
 ueberzug
 unclutter
 ungoogled-chromium
+unrar
 upd72020x-fw
 vde2
 ventoy-bin
