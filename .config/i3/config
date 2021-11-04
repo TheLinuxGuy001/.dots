@@ -176,10 +176,10 @@ bar {
         separator #00000000
         background #00000000
         statusline #00000000
-        focused_workspace #434C5E #434C5E #6e88a4
-        active_workspace #434C5E #434C5E #6e88a4
-        inactive_workspace #2E3440 #2E3440 #6e88a4
-        urgent_workspace #2f343a #900000 #6e88a4
+        focused_workspace #434C5E #434C5E #7591AE
+        active_workspace #434C5E #434C5E #7591AE
+        inactive_workspace #2E3440 #2E3440 #7591AE
+        urgent_workspace #2f343a #900000 #7591AE
     }
 }
 
@@ -219,8 +219,8 @@ bindsym $mod+Shift+w exec ~/.scripts/rice.sh
 
 ## other configurations
 focus_follows_mouse no
-gaps inner 16
-gaps outer 4
+gaps inner 12
+gaps outer 0
 
 for_window [class=".*"] border pixel 4
 
