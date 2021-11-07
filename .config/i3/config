@@ -171,7 +171,7 @@ bar {
     font pango:Hack Nerd Font 15
     position top
     status_command ~/.cargo/bin/i3status-rs ~/.config/i3status-rust/config.toml
-    i3bar_command i3bar --transparency  
+    i3bar_command i3bar --transparency 
     colors {
         separator #00000000
         background #00000000
@@ -209,7 +209,7 @@ bindsym $mod+d exec --no-startup-id rofi -show drun
 
 ## app open keybindings
 bindsym $mod+t exec kitty
-bindsym $mod+b exec microsoft-edge-stable
+bindsym $mod+b exec firefox
 bindsym $mod+f exec nautilus
 #bindsym $mod+d exec discord-canary
 bindsym $mod+Print exec gnome-screenshot -a

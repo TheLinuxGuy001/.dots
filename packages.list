@@ -1,4 +1,3 @@
-aic94xx-firmware
 all-repository-fonts
 amd-ucode
 amdvlk
@@ -46,6 +45,7 @@ evince
 fakeroot
 figlet
 file-roller
+firefox
 fish
 flatpak
 flex
@@ -79,6 +79,7 @@ gvfs-smb
 gwe
 heroic-games-launcher-bin
 hplip
+hunspell-en_gb
 i3-gaps-next-git
 i3-volume
 i3lock-color
@@ -114,7 +115,6 @@ lxappearance
 m4
 make
 mednafen
-microsoft-edge-stable-bin
 mingw-w64-binutils
 mingw-w64-crt
 mingw-w64-gcc
@@ -180,7 +180,6 @@ sassc
 scrot
 simple-scan
 skypeforlinux-stable-bin
-speedtest-cli
 spicetify-cli-git
 spotify
 sudo
@@ -209,7 +208,6 @@ ueberzug
 unclutter
 ungoogled-chromium
 unrar
-upd72020x-fw
 vde2
 ventoy-bin
 vim
@@ -218,7 +216,6 @@ vino
 virt-manager
 vkbasalt
 vlc
-vscodium-bin
 vulkan-tools
 whatsapp-nativefier
 which
