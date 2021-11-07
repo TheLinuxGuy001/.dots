@@ -24,7 +24,7 @@ SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE I
 # 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![DotfilesScreenshot](https://cdn.discordapp.com/attachments/849721525601828885/901866899632181288/New_Project.png)
+![DotfilesGIF](https://cdn.upload.systems/uploads/vHmcEF6P.gif)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.
@@ -79,7 +79,7 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [spotify (needed for spicetify)](https://www.spotify.com/us/download/linux/ "Spotify for Linux")
 
-[Ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium "ungoogled-chromium on GitHub")
+[Firefox](https://www.mozilla.org/en-GB/firefox/ "firefox")
 
 ## ✔️ Installation
 
