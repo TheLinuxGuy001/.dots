@@ -117,6 +117,7 @@ alias g='git'
 alias la='ls -A'
 alias cp='cp -i'
 alias ls='ls --color=auto'
+alias dotpush='$HOME/.scripts/push.sh'
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
