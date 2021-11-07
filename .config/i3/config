@@ -170,6 +170,7 @@ bindsym $mod+r mode "resize"
 bar {
     font pango:Hack Nerd Font 15
     position top
+    tray_output none
     status_command ~/.cargo/bin/i3status-rs ~/.config/i3status-rust/config.toml
     i3bar_command i3bar --transparency 
     colors {
@@ -200,6 +201,7 @@ exec --no-startup-id nvidia-settings -a "DigitalVibrance=400"
 exec --no-startup-id ~/.scripts/xidlehook.sh
 exec --no-startup-id xset s off
 # exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
+exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2
 
 ## Remove Title Bars.
 for_window [class="^.*"] border pixel 1
@@ -221,6 +223,7 @@ bindsym $mod+Shift+w exec ~/.scripts/rice.sh
 focus_follows_mouse no
 gaps inner 12
 gaps outer 0
+gaps top -12
 
 for_window [class=".*"] border pixel 4
 
