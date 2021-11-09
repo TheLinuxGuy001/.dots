@@ -58,6 +58,7 @@ gnome-keyring
 gnome-screenshot
 gnome-system-monitor
 google-calendar-nativefier
+gotop
 goverlay-bin
 gparted
 gpick
@@ -79,6 +80,7 @@ gvfs-smb
 gwe
 heroic-games-launcher-bin
 hplip
+htop
 hunspell-en_gb
 i3-gaps-next-git
 i3-volume
@@ -87,6 +89,7 @@ i3status
 imwheel
 inxi
 iptables-nft
+itstool
 jdk8-openjdk
 kbdd-git
 kitty
@@ -108,11 +111,13 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
+lsd
 lunar-client
 lutris
 lvm2
 lxappearance
 m4
+maim
 make
 mednafen
 mingw-w64-binutils
@@ -167,6 +172,7 @@ pipewire-pulse
 pkgconf
 polybar
 powerline
+progress
 proton-ge-custom-bin
 qemu
 reflector
@@ -178,6 +184,7 @@ rxfetch
 rygel
 sassc
 scrot
+shell-color-scripts
 simple-scan
 skypeforlinux-stable-bin
 spicetify-cli-git
@@ -185,6 +192,8 @@ spotify
 sudo
 sunshine-git
 sushi
+sway-git
+sxiv
 system-config-printer
 teams
 telegram-desktop-bin
@@ -223,7 +232,9 @@ which
 wine-staging
 winetricks
 wireless_tools
+wlroots-eglstreams-git
 wpa_supplicant
+xclip
 xdg-user-dirs-gtk
 xdotool
 xf86-video-vesa

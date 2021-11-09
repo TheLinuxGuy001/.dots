@@ -114,9 +114,9 @@ alias rm='rm -i'
 alias ..='cd ..'
 alias mv='mv -i'
 alias g='git'
-alias la='ls -A'
+alias la='lsd -A'
 alias cp='cp -i'
-alias ls='ls --color=auto'
+alias ls='lsd'
 alias dotpush='$HOME/.scripts/push.sh'
 
 
