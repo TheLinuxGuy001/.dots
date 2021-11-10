@@ -24,7 +24,7 @@ SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE I
 # 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![DotfilesGIF](https://cdn.upload.systems/uploads/vHmcEF6P.gif)
+![DotfilesGIF](https://cdn.upload.systems/uploads/bBVTpGUi.gif)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.

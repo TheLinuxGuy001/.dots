@@ -8,13 +8,9 @@ arch-install-scripts
 archlinux-artwork
 aria2
 aur-auto-vote-git
-autoconf
-automake
 baobab
 base
 bdf-unifont
-binutils
-bison
 blender
 bluez-utils
 bridge-utils
@@ -27,6 +23,7 @@ cups
 dconf-editor
 deluge
 deluge-gtk
+dex
 dialog
 discord-canary
 discord-rpc-wine-git
@@ -42,14 +39,11 @@ eog
 epiphany
 epson-inkjet-printer-escpr2
 evince
-fakeroot
 figlet
 file-roller
 firefox
 fish
 flatpak
-flex
-gcc
 gedit
 gimp
 git
@@ -58,13 +52,11 @@ gnome-keyring
 gnome-screenshot
 gnome-system-monitor
 google-calendar-nativefier
-gotop
 goverlay-bin
 gparted
 gpick
 grapejuice-git
 grilo-plugins
-groff
 grub
 grub-customizer
 gtk-engine-murrine
@@ -101,7 +93,6 @@ lib32-opencl-nvidia
 lib32-vulkan-icd-loader
 libgnome-keyring
 libreoffice-fresh
-libtool
 libusb-git
 lightdm
 lightdm-webkit-theme-aether
@@ -116,9 +107,7 @@ lunar-client
 lutris
 lvm2
 lxappearance
-m4
 maim
-make
 mednafen
 mingw-w64-binutils
 mingw-w64-crt
@@ -160,7 +149,6 @@ opentabletdriver-git
 orca
 os-prober
 paru
-patch
 pavucontrol
 perl-anyevent-i3
 perl-json-xs
@@ -169,7 +157,6 @@ picom-ibhagwan-git
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-pkgconf
 polybar
 powerline
 progress
@@ -189,7 +176,6 @@ simple-scan
 skypeforlinux-stable-bin
 spicetify-cli-git
 spotify
-sudo
 sunshine-git
 sushi
 sway-git
@@ -197,7 +183,6 @@ sxiv
 system-config-printer
 teams
 telegram-desktop-bin
-texinfo
 timeshift
 toilet
 totem
@@ -228,7 +213,6 @@ vkbasalt
 vlc
 vulkan-tools
 whatsapp-nativefier
-which
 wine-staging
 winetricks
 wireless_tools
