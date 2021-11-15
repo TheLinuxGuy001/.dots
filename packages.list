@@ -30,13 +30,13 @@ discord-rpc-wine-git
 dmidecode
 dnsmasq
 dosfstools
+dotnet-sdk-bin
 downgrade
 dunst
 edk2-ovmf
 efibootmgr
 emacs
 eog
-epiphany
 epson-inkjet-printer-escpr2
 evince
 figlet
@@ -93,6 +93,7 @@ lib32-opencl-nvidia
 lib32-vulkan-icd-loader
 libgnome-keyring
 libreoffice-fresh
+libreoffice-fresh-en-gb
 libusb-git
 lightdm
 lightdm-webkit-theme-aether
@@ -123,6 +124,7 @@ nautilus
 nautilus-copy-path
 nautilus-open-any-terminal
 neofetch
+neovim
 netctl
 networkmanager
 nfs-utils
@@ -140,7 +142,6 @@ nvtop
 obs-nvfbc-git
 obs-studio
 octopi
-office365-electron
 openbsd-netcat
 opencl-nvidia
 openrgb-git
@@ -167,7 +168,6 @@ rmlint
 rng-tools
 rofi
 rust
-rxfetch
 rygel
 sassc
 scrot
@@ -175,7 +175,9 @@ shell-color-scripts
 simple-scan
 skypeforlinux-stable-bin
 spicetify-cli-git
+spicetify-themes-git
 spotify
+stress
 sunshine-git
 sushi
 sway-git
@@ -199,9 +201,10 @@ ttf-joypixels
 ttf-material-design-icons
 ttf-ms-fonts
 ttf-twemoji
+tuned-git
 ueberzug
 unclutter
-ungoogled-chromium
+unixbench
 unrar
 vde2
 ventoy-bin
@@ -213,6 +216,7 @@ vkbasalt
 vlc
 vulkan-tools
 whatsapp-nativefier
+whoogle-git
 wine-staging
 winetricks
 wireless_tools

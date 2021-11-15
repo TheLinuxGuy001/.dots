@@ -34,7 +34,3 @@ modprobe vfio
 modprobe vfio_pci
 modprobe vfio_iommu_type1
 
-# isolate threads
-systemctl set-property --runtime -- user.slice AllowedCPUs=7,15
-systemctl set-property --runtime -- system.slice AllowedCPUs=7,15
-systemctl set-property --runtime -- init.scope AllowedCPUs=7,15

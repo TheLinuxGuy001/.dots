@@ -31,5 +31,16 @@ modprobe i2c_nvidia_gpu
 # reload xow controller service
 systemctl start xow
 
+# wait a bit
+sleep 3
+
 # start dm
 systemctl start lightdm.service
+
+# un-isolate threads
+systemctl set-property --runtime -- user.slice AllowedCPUs=0-15
+systemctl set-property --runtime -- system.slice AllowedCPUs=0-15
+systemctl set-property --runtime -- init.scope AllowedCPUs=0-15
+
+# mount drives again
+mount -a

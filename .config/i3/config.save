@@ -194,9 +194,7 @@ exec --no-startup-id unclutter
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec --no-startup-id ~/.scripts/xidlehook.sh
 # exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
-exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2
-exec --no-startup-id eval $(gnome-keyring-daemon --start)
-exec --no-startup-id export SSH_AUTH_SOCK
+exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 1
 
 ## Remove Title Bars.
 for_window [class="^.*"] border pixel 0
