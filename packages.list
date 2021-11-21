@@ -94,6 +94,7 @@ lib32-vulkan-icd-loader
 libgnome-keyring
 libreoffice-fresh
 libreoffice-fresh-en-gb
+libtpms
 libusb-git
 lightdm
 lightdm-webkit-theme-aether
