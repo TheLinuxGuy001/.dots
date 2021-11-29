@@ -11,10 +11,12 @@ aur-auto-vote-git
 baobab
 base
 bdf-unifont
-blender
 bluez-utils
 bridge-utils
 btop-git
+cava-git
+ccache
+cfs-zen-tweaks
 chrome-gnome-shell
 cmake
 cmatrix
@@ -26,11 +28,10 @@ deluge-gtk
 dex
 dialog
 discord-canary
-discord-rpc-wine-git
 dmidecode
 dnsmasq
 dosfstools
-dotnet-sdk-bin
+dotnet-sdk
 downgrade
 dunst
 edk2-ovmf
@@ -41,7 +42,6 @@ epson-inkjet-printer-escpr2
 evince
 figlet
 file-roller
-firefox
 fish
 flatpak
 gedit
@@ -57,8 +57,8 @@ gparted
 gpick
 grapejuice-git
 grilo-plugins
-grub
 grub-customizer
+grub-git
 gtk-engine-murrine
 gtk-engines
 gvfs
@@ -84,9 +84,8 @@ iptables-nft
 itstool
 jdk8-openjdk
 kbdd-git
-kitty
+kitty-git
 lib32-mangohud
-lib32-mesa-demos
 lib32-nvidia-utils
 lib32-ocl-icd
 lib32-opencl-nvidia
@@ -94,6 +93,7 @@ lib32-vulkan-icd-loader
 libgnome-keyring
 libreoffice-fresh
 libreoffice-fresh-en-gb
+librewolf-bin
 libtpms
 libusb-git
 lightdm
@@ -106,7 +106,7 @@ linux-zen
 linux-zen-headers
 lsd
 lunar-client
-lutris
+lutris-git
 lvm2
 lxappearance
 maim
@@ -134,6 +134,7 @@ nnn
 nodejs
 nodejs-material-design-icons
 nordic-wallpapers
+notepadqq
 noto-fonts
 ntfs-3g
 nvidia-dkms
@@ -145,6 +146,7 @@ obs-studio
 octopi
 openbsd-netcat
 opencl-nvidia
+openrazer-meta-git
 openrgb-git
 openssh
 opentabletdriver-git
@@ -159,7 +161,9 @@ picom-ibhagwan-git
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+polkit-gnome
 polybar
+polychromatic-git
 powerline
 progress
 proton-ge-custom-bin
@@ -174,7 +178,7 @@ sassc
 scrot
 shell-color-scripts
 simple-scan
-skypeforlinux-stable-bin
+skypeforlinux-preview-bin
 spicetify-cli-git
 spicetify-themes-git
 spotify
@@ -226,7 +230,6 @@ wpa_supplicant
 xclip
 xdg-user-dirs-gtk
 xdotool
-xf86-video-vesa
 xidlehook
 xkb-switch-i3
 xkblayout-state-git
@@ -238,6 +241,7 @@ xorg-fonts-75dpi
 xorg-iceauth
 xorg-mkfontscale
 xorg-server-devel
+xorg-server-git
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
@@ -270,4 +274,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yelp
-zsh
+zenmonitor-git
+zsh-git

@@ -38,3 +38,6 @@ modprobe vfio_iommu_type1
 systemctl set-property --runtime -- user.slice AllowedCPUs=7,15
 systemctl set-property --runtime -- system.slice AllowedCPUs=7,15
 systemctl set-property --runtime -- init.scope AllowedCPUs=7,15
+
+# set profile to virtual-host
+tuned-adm profile virtual-host
