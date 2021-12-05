@@ -1,4 +1,3 @@
-all-repository-fonts
 amd-ucode
 amdvlk
 android-tools
@@ -14,6 +13,7 @@ bdf-unifont
 bluez-utils
 bridge-utils
 btop-git
+catfish
 cava-git
 ccache
 cfs-zen-tweaks
@@ -42,12 +42,14 @@ epson-inkjet-printer-escpr2
 evince
 figlet
 file-roller
+firefox
 fish
 flatpak
 gedit
 gimp
 git
 gnome-disk-utility
+gnome-font-viewer
 gnome-keyring
 gnome-screenshot
 gnome-system-monitor
@@ -57,8 +59,8 @@ gparted
 gpick
 grapejuice-git
 grilo-plugins
+grub
 grub-customizer
-grub-git
 gtk-engine-murrine
 gtk-engines
 gvfs
@@ -84,7 +86,7 @@ iptables-nft
 itstool
 jdk8-openjdk
 kbdd-git
-kitty-git
+kitty
 lib32-mangohud
 lib32-nvidia-utils
 lib32-ocl-icd
@@ -121,9 +123,6 @@ mtools
 multimc-bin
 mutter
 nano
-nautilus
-nautilus-copy-path
-nautilus-open-any-terminal
 neofetch
 neovim
 netctl
@@ -190,6 +189,7 @@ sxiv
 system-config-printer
 teams
 telegram-desktop-bin
+thunar
 timeshift
 toilet
 totem
@@ -240,8 +240,8 @@ xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-iceauth
 xorg-mkfontscale
+xorg-server
 xorg-server-devel
-xorg-server-git
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
@@ -275,4 +275,4 @@ xorg-xwininfo
 xorg-xwud
 yelp
 zenmonitor-git
-zsh-git
+zsh

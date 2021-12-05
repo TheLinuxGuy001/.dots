@@ -212,7 +212,7 @@ bindsym $mod+Shift+e exec ~/.config/rofi/powermenu.sh
 ## app open keybindings
 bindsym $mod+t exec kitty
 bindsym $mod+b exec librewolf
-bindsym $mod+f exec nautilus
+bindsym $mod+f exec thunar
 bindsym $mod+Shift+Escape exec ~/.scripts/lock.sh
 bindsym $mod+Shift+w exec ~/.scripts/rice.sh
 

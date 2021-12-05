@@ -6,7 +6,7 @@ kitty cava & librewolf & kitty $HOME/.scripts/rsclock.sh & $HOME/.scripts/spotif
 sleep 1
 i3-msg restart
 sleep 1
-xdotool mousemove 1880 875
+xdotool mousemove 1880 1025
 sleep 1
 xdotool click 1
 sleep 1
