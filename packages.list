@@ -9,6 +9,7 @@ aria2
 aur-auto-vote-git
 baobab
 base
+bat
 bdf-unifont
 bluez-utils
 bridge-utils
@@ -22,7 +23,6 @@ cmake
 cmatrix
 conky
 cups
-dconf-editor
 deluge
 deluge-gtk
 dex
@@ -40,6 +40,7 @@ emacs
 eog
 epson-inkjet-printer-escpr2
 evince
+exa
 figlet
 file-roller
 firefox
@@ -106,7 +107,6 @@ linux-firmware
 linux-headers
 linux-zen
 linux-zen-headers
-lsd
 lunar-client
 lutris-git
 lvm2
@@ -219,6 +219,7 @@ vino
 virt-manager
 vkbasalt
 vlc
+vscodium-bin
 vulkan-tools
 whatsapp-nativefier
 whoogle-git
