@@ -137,6 +137,7 @@ notepadqq
 noto-fonts
 ntfs-3g
 nvidia-dkms
+nvidia-fake-powerd
 nvidia-settings
 nvidia-utils-nvlax
 nvtop
@@ -151,7 +152,7 @@ openssh
 opentabletdriver-git
 orca
 os-prober
-paru
+paru-git
 pavucontrol
 perl-anyevent-i3
 perl-json-xs
