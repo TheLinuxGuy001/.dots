@@ -184,14 +184,13 @@ bar {
 }
 
 ## Startup Commands
-exec --no-startup-id xrandr --output DP-2 --mode 2560x1440 --rate 169.83
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id picom -b --experimental-backends
 exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
 exec --no-startup-id ~/.scripts/xidlehook.sh
-# exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
 exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2
+# exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
 
 ## Remove Title Bars.
 for_window [class="^.*"] border pixel 0

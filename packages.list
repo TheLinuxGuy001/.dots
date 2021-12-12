@@ -19,6 +19,7 @@ btop-git
 catfish
 cava-git
 ccache
+celluloid
 cfs-zen-tweaks
 cmake
 cmatrix
@@ -89,7 +90,8 @@ lightdm-webkit2-greeter
 linux
 linux-firmware
 linux-headers
-linux-zen
+linux-lts
+linux-lts-headers
 linux-zen-headers
 lunar-client
 lutris-git
@@ -119,8 +121,9 @@ nordic-wallpapers
 notepadqq
 noto-fonts
 ntfs-3g
-nvidia-dkms
+nvidia
 nvidia-fake-powerd
+nvidia-lts
 nvidia-settings
 nvidia-utils-nvlax
 obs-nvfbc-git
@@ -191,7 +194,6 @@ unrar
 vde2
 ventoy-bin
 virt-manager
-vlc
 vscodium-bin
 vulkan-tools
 whatsapp-nativefier

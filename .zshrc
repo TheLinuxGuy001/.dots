@@ -115,6 +115,7 @@ alias ..='cd ..'
 alias mv='mv -i'
 alias g='git'
 alias la='exa --icons -a --group-directories-first'
+alias ll='exa --icons -la --group-directories-first'
 alias cp='cp -i'
 alias ls='exa --icons --group-directories-first'
 alias tree='exa --icons --tree'
@@ -126,6 +127,7 @@ alias cat='bat'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-toilet -f mono12 -F metal FAARIS
-neofetch --config ~/.config/neofetch/pacfetch.conf 
-#--kitty "~/.config/neofetch/SonicBig.png" --image_size none
+#toilet -f mono12 -F metal FAARIS
+colorscript -e crunchbang-mini
+echo ''
+neofetch --config ~/.config/neofetch/pacfetch.conf # --kitty "$HOME/.config/neofetch/Sonic.png" --image_size none
