@@ -23,10 +23,10 @@ options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
 chosen="$(echo -e "$options" | $rofi_command -p "$uptime" -dmenu -selected-row 0)"
 case $chosen in
 $shutdown)
-  systemctl poweroff
+  loginctl poweroff
   ;;
 $reboot)
-  systemctl reboot
+  loginctl reboot
   ;;
 $lock)
   if [[ -f /usr/bin/i3lock ]]; then
@@ -40,7 +40,7 @@ $suspend)
   if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
     mpc -q pause
     amixer set Master mute
-    systemctl suspend
+    loginctl suspend
   elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
     exit 0
   else

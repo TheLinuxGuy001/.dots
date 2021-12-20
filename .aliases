@@ -1,0 +1,21 @@
+alias rm='rm -i'
+alias ..='cd ..'
+alias mv='mv -i'
+alias g='git'
+alias la='exa --icons -a --group-directories-first'
+alias ll='exa --icons -la --group-directories-first'
+alias cp='cp -i'
+alias ls='exa --icons --group-directories-first'
+alias tree='exa --icons --tree'
+alias dotpush='$HOME/.scripts/push.sh'
+# alias winvm='sudo virsh start win10'
+# alias winedit='sudo EDITOR=nano virsh edit win10'
+alias cat='bat'
+alias yay='paru'
+
+alias reboot="loginctl reboot"
+alias shutdown="loginctl shutdown"
+alias suspend="loginctl suspend"
+
+alias i3edit="nano $HOME/.config/i3/config"
+alias picomedit="nano $HOME/.config/picom.conf"
