@@ -185,12 +185,14 @@ bar {
 
 ## Startup Commands
 exec --no-startup-id nitrogen --restore
+exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec_always --no-startup-id picom -b --experimental-backends
 exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
+exec_always --no-startup-id imwheel --kill -b 45
 exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
-exec --no-startup-id ~/.scripts/xidlehook.sh
+exec --no-startup-id $HOME/.scripts/xidlehook.sh
 exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2
-exec /usr/bin/pipewire & /usr/bin/pipewire-pulse & /usr/bin/pipewire-media-session
+exec --no-startup-id $HOME/.scripts/sound.sh
 # exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
 
 ## Remove Title Bars.
@@ -205,7 +207,7 @@ bindsym $mod+Shift+e exec ~/.config/rofi/powermenu.sh
 ## app open keybindings
 bindsym $mod+t exec kitty
 bindsym $mod+b exec librewolf
-bindsym $mod+f exec dbus-launch thunar
+bindsym $mod+f exec thunar
 bindsym $mod+Shift+Escape exec ~/.scripts/lock.sh
 bindsym $mod+Shift+w exec ~/.scripts/rice.sh
 

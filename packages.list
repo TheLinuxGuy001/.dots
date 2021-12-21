@@ -10,7 +10,7 @@ base
 bat
 binutils
 bison
-btop
+bottom
 btrfs-progs
 catfish
 cava
@@ -24,7 +24,7 @@ cups
 cups-runit
 dex
 dhcpcd
-discord-canary-electron-bin
+discord-canary
 dunst
 efibootmgr
 elogind-runit
@@ -46,12 +46,14 @@ gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
 gnome-system-monitor
-gotop
 grep
 groff
 grub
+grub-btrfs
+gucharmap
 gvfs
 gzip
+hdparm
 hplip
 i2c-tools
 i3-gaps-next-git
@@ -78,6 +80,7 @@ lxappearance
 m4
 maim
 make
+mate-polkit
 multimc-bin
 nano
 neofetch
@@ -86,6 +89,7 @@ nitrogen
 nordic-bluish-theme-git
 nordic-wallpapers
 noto-fonts-emoji
+npm
 ntfs-3g
 nvidia-dkms
 nvidia-settings
@@ -104,14 +108,15 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgconf
-powercord-electron-git
 python-pip
 rofi
 runit
 rust
+screenkey
 scrot
 sed
 shell-color-scripts
+skypeforlinux-preview-bin
 spicetify-cli-git
 spicetify-themes-git
 spotify
@@ -120,9 +125,11 @@ texinfo
 thunar
 thunar-archive-plugin
 timeshift
+timeshift-autosnap
 trayer
 ttf-font-awesome
 ttf-font-awesome-4
+ttf-font-logos
 ttf-joypixels
 ttf-ms-fonts
 tumbler
@@ -156,4 +163,5 @@ xorg-xrdb
 xorg-xset
 xorg-xsetroot
 xorg-xwayland
+zenmonitor3-git
 zsh
