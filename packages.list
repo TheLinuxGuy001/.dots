@@ -50,7 +50,6 @@ grep
 groff
 grub
 grub-btrfs
-gucharmap
 gvfs
 gzip
 hdparm
@@ -94,6 +93,8 @@ ntfs-3g
 nvidia-dkms
 nvidia-settings
 nvidia-utils-nvlax
+obs-nvfbc-git
+obs-studio
 onlyoffice-bin
 openrgb-git
 os-prober

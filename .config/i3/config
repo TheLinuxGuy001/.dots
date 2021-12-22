@@ -194,7 +194,7 @@ exec --no-startup-id $HOME/.scripts/xidlehook.sh
 exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2
 exec --no-startup-id $HOME/.scripts/sound.sh
 # exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
-
+exec_always --no-startup-id /usr/bin/dbus-test-tool black-hole --system --name=nvidia.powerd.server
 ## Remove Title Bars.
 for_window [class="^.*"] border pixel 0
 
