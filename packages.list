@@ -37,10 +37,12 @@ file
 file-roller
 findutils
 flex
+font-manager
 gawk
 gcc
 gedit
 gettext
+gimp
 git
 gnome-disk-utility
 gnome-font-viewer
@@ -51,6 +53,7 @@ groff
 grub
 grub-btrfs
 gvfs
+gwe
 gzip
 hdparm
 hplip
@@ -87,7 +90,10 @@ nerd-fonts-hack
 nitrogen
 nordic-bluish-theme-git
 nordic-wallpapers
+noto-fonts
+noto-fonts-cjk
 noto-fonts-emoji
+noto-fonts-extra
 npm
 ntfs-3g
 nvidia-dkms
@@ -128,6 +134,7 @@ thunar-archive-plugin
 timeshift
 timeshift-autosnap
 trayer
+treefetch-bin
 ttf-font-awesome
 ttf-font-awesome-4
 ttf-font-logos
