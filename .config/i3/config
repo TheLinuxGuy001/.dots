@@ -171,7 +171,7 @@ bar {
     position top
     tray_output none
     status_command i3status-rs ~/.config/i3status-rust/config.toml
-    i3bar_command i3bar --transparency 
+    i3bar_command i3bar --transparency
     colors {
         separator #00000000
         background #00000000
@@ -184,7 +184,7 @@ bar {
 }
 
 ## Startup Commands
-exec --no-startup-id nvidia-settings --load-config-only
+exec_always --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec_always --no-startup-id picom -b --experimental-backends
@@ -219,6 +219,9 @@ bindsym Shift+Print exec --no-startup-id maim --select | xclip -selection clipbo
 
 ## other configurations
 focus_follows_mouse no
-gaps inner 16
+gaps inner 24
 gaps outer 0
-gaps top -16
+gaps top -24
+
+# Only enable gaps on a workspace when there is at least one container
+# smart_gaps on

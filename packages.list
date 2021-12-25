@@ -89,6 +89,8 @@ neofetch
 nerd-fonts-hack
 nitrogen
 nordic-bluish-theme-git
+nordic-darker-theme-git
+nordic-theme-git
 nordic-wallpapers
 noto-fonts
 noto-fonts-cjk
@@ -110,6 +112,7 @@ paru
 patch
 pavucontrol
 picom-ibhagwan-git
+pipes.sh
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -141,9 +144,11 @@ ttf-font-logos
 ttf-joypixels
 ttf-ms-fonts
 tumbler
+ventoy-bin
 which
+wpa_supplicant
+wpa_supplicant-runit
 xclip
-xf86-video-vesa
 xidlehook-git
 xorg-bdftopcf
 xorg-font-util
