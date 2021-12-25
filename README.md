@@ -1,7 +1,5 @@
 # 📖 Jump to
 
-[WARNING!](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-warning)
-
 [nord-dotfiles](https://github.com/FaarisAnsari/nord-dotfiles#-nord-dotfiles)
 
 [Permissions](https://github.com/FaarisAnsari/nord-dotfiles#-permissions)
