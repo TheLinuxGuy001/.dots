@@ -1,8 +1,3 @@
-# ⚠️ WARNING!
-THIS WILL OVERWRITE OLD CONFIGS IF THEY ARE PRESENT. PLEASE USE AT YOUR OWN RISK.
-
-SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE INFO AND CHECK THE DEPENDENCY PAGES FOR SUB-DEPENDENCIES BEFORE INSTALLING!
-
 # 📖 Jump to
 
 [WARNING!](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-warning)
@@ -22,7 +17,7 @@ SOME CONFIGS MAY BE SPECIFIC TO MY SYSTEM. PLEASE CONSULT THE CONFIGS FOR MORE I
 [Installation](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-installation)
 
 # 🔷 dotfiles
-Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
+Dotfiles for my Artix linux configurations, edited and maintained by FaarisAnsari.
 
 ![Dotfiles](https://media.discordapp.net/attachments/635625925748457482/924318028982788096/Fetchmas.png)
 
@@ -58,7 +53,9 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [xidlehook](https://github.com/jD91mZM2/xidlehook "xidlehook on github")
 
-## 👩‍💻 Dependencies without configs
+[bottom](https://github.com/ClementTsang/bottom "bottom on github")
+
+## 👩‍💻 Dependencies without configs / scripts
 
 
 [zsh](https://www.zsh.org/ "zsh")
@@ -71,23 +68,23 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k "Powerlevel10k on GitHub")
 
-## ‼️ Optional Apps from Screenshots
-
 [rsClock](https://github.com/valebes/rsClock "rsClock on GitHub")
 
 [spicetify](https://github.com/khanhas/spicetify-cli "spicetify-cli on GitHub")
 
 [spotify (needed for spicetify)](https://www.spotify.com/us/download/linux/ "Spotify for Linux")
 
-[Firefox](https://www.mozilla.org/en-GB/firefox/ "firefox")
+[Librewolf](https://librewolf.net/ "librewolf")
+
+[🎄 Treefetch](https://github.com/angelofallars/treefetch "treefetch")
 
 ## ✔️ Installation
 
 ```
-# git clone https://github.com/FaarisAnsari/dotfiles.git && cd dotfiles
-# cp -ir .config ~/.config
-# cp -i .zshrc ~/.zshrc
-# cp -ir .scripts ~/.scripts
+# cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
+# ln -svf ~/dotfiles/.config/* ~/.config
+# ln -svf .zshrc ~/.zshrc
+# ln -svf .scripts ~/.scripts
 
-(or symlink if you know what you're doing.)
 ```
+This will create symlinks and overwrite files. Please backup your current configs before installing!
