@@ -1,6 +1,6 @@
 # 📖 Jump to
 
-[nord-dotfiles](https://github.com/FaarisAnsari/nord-dotfiles#-nord-dotfiles)
+[nord-dotfiles](https://github.com/FaarisAnsari/dotfiles#-dotfiles)
 
 [Permissions](https://github.com/FaarisAnsari/nord-dotfiles#-permissions)
 
