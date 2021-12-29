@@ -1,5 +1,6 @@
 theme = "nord-dark"
-icons = "awesome"
+icons = "material-nf"
+
 
 [[block]]
 block = "focused_window"
@@ -21,6 +22,7 @@ idle_fg = "#718ca8"
 block = "memory"
 display_type = "memory"
 format_mem = "{mem_used}"
+clickable = false
 [block.theme_overrides]
 idle_bg = "#2e3440"
 idle_fg = "#718ca8"
@@ -32,11 +34,11 @@ interval = 1
 idle_bg = "#3b4252"
 idle_fg = "#718ca8"
 
-
 [[block]]
 block = "custom"
 command = "uname -r"
 interval = "once"
+icons_format = ""
 [block.theme_overrides]
 idle_bg = "#2e3440"
 idle_fg = "#718ca8"
@@ -55,3 +57,10 @@ format = "%a %d/%m %T"
 [block.theme_overrides]
 idle_bg = "#2e3440"
 idle_fg = "#718ca8"
+
+[[block]]
+block = "music"
+player = "spotify"
+buttons = ["play", "next"]
+dynamic_width = true
+hide_when_empty = true

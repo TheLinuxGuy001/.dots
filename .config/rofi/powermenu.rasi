@@ -13,7 +13,7 @@ configuration {
 
 window {
     transparency:                   "real";
-    border-radius:                  10px;
+    border-radius:                  12px;
     width:                          100px;
     location:                       west;
     x-offset:                       -5px;

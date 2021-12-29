@@ -6,7 +6,6 @@ aur-auto-vote-git
 autoconf
 automake
 baobab
-base
 bat
 binutils
 bison
@@ -17,15 +16,18 @@ cava
 celluloid
 cmatrix
 conky
+connman
 connman-gtk
-connman-runit
 cronie-runit
 cups
 cups-runit
 dex
 dhcpcd
+dhcpcd-runit
 discord-canary
+dnsmasq
 dunst
+edk2-ovmf
 efibootmgr
 elogind-runit
 eog
@@ -64,11 +66,14 @@ i3lock-color-git
 i3status
 i3status-rust
 imwheel
+iproute2
 jre-openjdk
 jre8-openjdk
 kitty
-librewolf-bin
+librewolf
 libtool
+libusb-git
+libvirt-runit
 lightdm
 lightdm-runit
 lightdm-webkit-theme-aether
@@ -80,6 +85,7 @@ linux-zen
 linux-zen-headers
 lxappearance
 m4
+macchanger
 maim
 make
 mate-polkit
@@ -91,7 +97,7 @@ nitrogen
 nordic-bluish-theme-git
 nordic-darker-theme-git
 nordic-theme-git
-nordic-wallpapers
+nordic-wallpapers-git
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -119,6 +125,7 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 python-pip
+python-py3nvml
 rofi
 runit
 rust
@@ -176,5 +183,6 @@ xorg-xrdb
 xorg-xset
 xorg-xsetroot
 xorg-xwayland
+xow-git
 zenmonitor3-git
 zsh

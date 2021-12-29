@@ -67,16 +67,16 @@ format = "Discord\n%s\n%b"
 	background  = "#2E3440"
 	foreground  = "#ECEFF4"
 	timeout     = 4
-	icon        = "$HOME/.config/dunst/icons/030-notification bell.svg" 
+	icon        = "$HOME/.config/dunst/icons/030-notificationbell.svg" 
 
 [urgency_normal]
 	background  = "#2E3440"
 	foreground  = "#ECEFF4"
 	timeout = 4
-	icon        = "$HOME/.config/dunst/icons/030-notification bell.svg" 
+	icon        = "$HOME/.config/dunst/icons/030-notificationbell.svg" 
 
 [urgency_critical]
 	background  = "#2E3440"
 	foreground  = "#ECEFF4"
 	timeout = 4
-	icon        = "/$HOME/.config/dunst/icons/030-notification bell.svg" 
+	icon        = "/$HOME/.config/dunst/icons/030-notificationbell.svg" 

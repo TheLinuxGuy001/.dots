@@ -29,31 +29,12 @@ $reboot)
   loginctl reboot
   ;;
 $lock)
-  if [[ -f /usr/bin/i3lock ]]; then
-    ~/.scripts/lock.sh
-  elif [[ -f /usr/bin/betterlockscreen ]]; then
-    betterlockscreen -l
-  fi
+  ~/.scripts/lock.sh
   ;;
 $suspend)
-  ans=$(confirm_exit &)
-  if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-    mpc -q pause
-    amixer set Master mute
-    loginctl suspend
-  elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
-    exit 0
-  else
-    msg
-  fi
+  loginctl suspend
   ;;
 $logout)
-  if [[ "$DESKTOP_SESSION" == "Openbox" ]]; then
-    openbox --exit
-  elif [[ "$DESKTOP_SESSION" == "bspwm" ]]; then
-    bspc quit
-  elif [[ "$DESKTOP_SESSION" == "i3" ]]; then
-    i3-msg exit
-  fi
+  i3-msg exit
   ;;
 esac

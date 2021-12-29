@@ -17,4 +17,4 @@ separator_color = "#2E3440"
     foreground = "#ECEFF4"
 
 icon_position = left
-icon_path = /home/faaris/.icons/Papirus/16x16/devices/:/usr/share/icons/Adwaita/16x16/legacy/
+icon_path = /home/faaris/.icons/Papirus/16x16/devices/:/usr/share/icons/Papirus/16x16/legacy/
