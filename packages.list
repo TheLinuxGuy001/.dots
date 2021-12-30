@@ -18,6 +18,7 @@ cmatrix
 conky
 connman
 connman-gtk
+connman-runit
 cronie-runit
 cups
 cups-runit
@@ -134,6 +135,7 @@ scrot
 sed
 shell-color-scripts
 skypeforlinux-preview-bin
+speedtest-cli
 spicetify-cli-git
 spicetify-themes-git
 spotify
@@ -152,6 +154,7 @@ ttf-joypixels
 ttf-ms-fonts
 tumbler
 ventoy-bin
+whatsapp-nativefier
 which
 wpa_supplicant
 wpa_supplicant-runit
