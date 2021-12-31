@@ -1,5 +1,5 @@
 #!/bin/bash
-
-echo "What comment do you want to add?"
-read comment
-cd ~/dotfiles && pacman -Qqe > packages.list && git add -A && git commit -m 'Minor Changes' && git push -u -f origin main 
+cd ~/dotfiles
+pacman -Qqet > packages.list 
+git add -A && git commit -m 'Changes'
+git push -u -f origin main 
