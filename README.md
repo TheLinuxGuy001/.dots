@@ -79,10 +79,9 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 ## ✔️ Installation
 
 ```
-# cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
-# ln -svf ~/dotfiles/.config/* ~/.config
-# ln -svf .zshrc ~/.zshrc
-# ln -svf .scripts ~/.scripts
-
+$ cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
+$ ln -svf ~/dotfiles/.config/* ~/.config/
+$ ln -svf .zshrc ~/.zshrc
+$ ln -svf .scripts ~/.scripts
 ```
 This will create symlinks and overwrite files. Please backup your current configs before installing!

@@ -23,13 +23,11 @@ edk2-ovmf
 eog
 exa
 font-manager
-gamemode
 gedit
 gimp
 gnome-disk-utility
 gnome-font-viewer
 gnome-system-monitor
-goverlay-bin
 groff
 gwe
 hdparm
@@ -84,6 +82,7 @@ ttf-font-awesome-4
 ttf-font-logos
 ttf-joypixels
 ventoy-bin
+vulkan-tools
 whatsapp-nativefier
 wpa_supplicant-runit
 xclip
