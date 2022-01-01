@@ -22,7 +22,6 @@ dotnet-sdk
 edk2-ovmf
 eog
 exa
-flex
 font-manager
 gamemode
 gedit
@@ -68,6 +67,7 @@ picom-ibhagwan-git
 pipes.sh
 pkgconf
 python-clr_loader
+qbittorrent
 rofi
 rust
 screenkey
