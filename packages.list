@@ -49,7 +49,6 @@ mate-polkit
 meson
 multimc-bin
 nano
-nautilus
 neofetch
 nerd-fonts-hack
 nodejs-nativefier
@@ -71,6 +70,7 @@ pipes.sh
 qbittorrent
 qt5-x11extras
 raw-thumbnailer
+reflector-mirrorlist-update
 rofi
 rust
 screenkey
@@ -90,6 +90,7 @@ vala
 ventoy-bin
 whatsapp-nativefier
 xclip
+xdg-user-dirs
 xf86-video-vesa
 xidlehook-git
 xmlto
@@ -130,3 +131,4 @@ xow-git
 yelp-tools
 zenmonitor3-git
 zramd
+zsh-syntax-highlighting
