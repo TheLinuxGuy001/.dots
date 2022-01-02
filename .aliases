@@ -13,9 +13,5 @@ alias dotpush='$HOME/.scripts/push.sh'
 alias cat='bat'
 alias yay='paru'
 
-alias reboot="loginctl reboot"
-alias shutdown="loginctl shutdown"
-alias suspend="loginctl suspend"
-
 alias i3conf="nano $HOME/.config/i3/config"
 alias picomconf="nano $HOME/.config/picom.conf"

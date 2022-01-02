@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 cd ~/rsClock
-./target/release/rsclock -S -c -f 12
+$HOME/packages/rsClock/target/release/rsclock -S -c -f 12

@@ -64,3 +64,7 @@ player = "spotify"
 buttons = ["play", "next"]
 dynamic_width = true
 hide_when_empty = true
+max_width = 30
+[block.theme_overrides]
+idle_bg = "#3b4252"
+idle_fg = "#718ca8"

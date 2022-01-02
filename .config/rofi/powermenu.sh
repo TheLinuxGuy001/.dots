@@ -23,16 +23,16 @@ options="$shutdown\n$reboot\n$lock\n$suspend\n$logout"
 chosen="$(echo -e "$options" | $rofi_command -p "$uptime" -dmenu -selected-row 0)"
 case $chosen in
 $shutdown)
-  loginctl poweroff
+  systemctl poweroff
   ;;
 $reboot)
-  loginctl reboot
+  systemctl reboot
   ;;
 $lock)
   ~/.scripts/lock.sh
   ;;
 $suspend)
-  loginctl suspend
+  systemctl suspend
   ;;
 $logout)
   i3-msg exit

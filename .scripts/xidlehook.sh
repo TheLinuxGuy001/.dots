@@ -9,5 +9,5 @@ xidlehook \
     '~/.scripts/lock.sh' \
     '' \
   --timer 300 \
-    'loginctl suspend' \
+    'systemctl suspend' \
     ''
