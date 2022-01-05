@@ -18,6 +18,7 @@ cmatrix
 conky
 dex
 discord-canary
+dmidecode
 dotnet-sdk
 eog
 epson-inkjet-printer-escpr2
@@ -80,7 +81,7 @@ skypeforlinux-preview-bin
 spicetify-themes-git
 spotify-adblock-git
 sudo
-timeshift-autosnap
+timeshift
 trayer
 ttf-font-awesome-4
 ttf-font-logos
