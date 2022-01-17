@@ -1,5 +1,5 @@
 theme = "nord-dark"
-icons = "awesome"
+icons = "material-nf"
 
 
 [[block]]
@@ -38,14 +38,15 @@ idle_fg = "#718ca8"
 block = "custom"
 command = "uname -r"
 interval = "once"
-icons_format = ""
 [block.theme_overrides]
 idle_bg = "#2e3440"
 idle_fg = "#718ca8"
 
 [[block]]
-block = "sound"
-max_vol = 100
+block = "custom"
+command = "i3-volume output \"%i %v\n\""
+on_click = "i3-volume mute"
+signal = 10
 [block.theme_overrides]
 idle_bg = "#3b4252"
 idle_fg = "#718ca8"

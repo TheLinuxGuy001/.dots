@@ -14,8 +14,6 @@ cabextract
 catfish
 cava-git
 celluloid
-chaotic-keyring
-chaotic-mirrorlist
 cmake
 cmatrix
 conky
@@ -41,7 +39,7 @@ imwheel
 intltool
 jq
 kitty
-librewolf
+librewolf-bin
 lightdm-webkit-theme-aether
 linux-lts
 linux-zen

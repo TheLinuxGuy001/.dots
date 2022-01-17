@@ -33,10 +33,10 @@ exec --no-startup-id dex -a -s ~/.config/autostart/
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
-bindsym XF86AudioRaiseVolume exec --no-startup-id i3-volume -n up 5 -y -x 100
-bindsym XF86AudioLowerVolume exec --no-startup-id i3-volume -n down 5 -y -x 100
-bindsym XF86AudioMute exec --no-startup-id i3-volume -n mute -y
-bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id i3-volume -n up 5 -x 100 -t i3status-rs -u SIGRTMIN+10 -y
+bindsym XF86AudioLowerVolume exec --no-startup-id i3-volume -n down 5 -x 100 -t i3status-rs -u SIGRTMIN+10 -y
+bindsym XF86AudioMute exec --no-startup-id i3-volume -n mute -t i3status-rs -u SIGRTMIN+10 -y
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && i3-volume -t i3status-rs -u SIGRTMIN+10 -y
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
