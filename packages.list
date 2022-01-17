@@ -9,6 +9,7 @@ baobab
 base
 bison
 bottom
+bunnyfetch-git
 cabextract
 catfish
 cava-git
@@ -35,6 +36,7 @@ go
 hplip
 i3-volume
 i3status-rust
+idle3-tools
 imwheel
 intltool
 jq
@@ -62,6 +64,7 @@ obs-nvfbc
 onlyoffice-bin
 openrgb-git
 optipng
+paclist
 papirus-icon-theme-stripped-git
 paru
 pavucontrol
@@ -78,7 +81,6 @@ screenkey
 scrot
 shell-color-scripts
 simple-scan
-skypeforlinux-preview-bin
 spicetify-themes-git
 spotify-adblock-git
 sudo
