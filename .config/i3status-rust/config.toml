@@ -1,4 +1,4 @@
-theme = "nord-dark"
+theme = "gruvbox-dark"
 icons = "material-nf"
 
 
@@ -7,16 +7,16 @@ block = "focused_window"
 max_width = 50
 show_marks = "visible"
 [block.theme_overrides]
-idle_bg = "#2e3440"
-idle_fg = "#718ca8"
+idle_bg = "#282828"
+idle_fg = "#dfbf8e"
 
 [[block]]
 block = "weather"
 format = "{weather_verbose} {temp}"
 service = { name = "openweathermap", api_key = "24e8f05e46f42d367e05181472312479", city_id = "2636663", units = "metric" }
 [block.theme_overrides]
-idle_bg = "#3b4252"
-idle_fg = "#718ca8"
+idle_bg = "#dfbf8e"
+idle_fg = "#282828"
 
 [[block]]
 block = "memory"
@@ -24,23 +24,23 @@ display_type = "memory"
 format_mem = "{mem_used}"
 clickable = false
 [block.theme_overrides]
-idle_bg = "#2e3440"
-idle_fg = "#718ca8"
+idle_bg = "#282828"
+idle_fg = "#dfbf8e"
 
 [[block]]
 block = "cpu"
 interval = 1
 [block.theme_overrides]
-idle_bg = "#3b4252"
-idle_fg = "#718ca8"
+idle_bg = "#dfbf8e"
+idle_fg = "#282828"
 
 [[block]]
 block = "custom"
 command = "uname -r"
 interval = "once"
 [block.theme_overrides]
-idle_bg = "#2e3440"
-idle_fg = "#718ca8"
+idle_bg = "#282828"
+idle_fg = "#dfbf8e"
 
 [[block]]
 block = "custom"
@@ -48,16 +48,16 @@ command = "i3-volume output \"%i %v\n\""
 on_click = "i3-volume mute"
 signal = 10
 [block.theme_overrides]
-idle_bg = "#3b4252"
-idle_fg = "#718ca8"
+idle_bg = "#dfbf8e"
+idle_fg = "#282828"
 
 [[block]]
 block = "time"
 interval = 1
 format = "%a %d/%m %T"
 [block.theme_overrides]
-idle_bg = "#2e3440"
-idle_fg = "#718ca8"
+idle_bg = "#282828"
+idle_fg = "#dfbf8e"
 
 [[block]]
 block = "music"
@@ -67,5 +67,5 @@ dynamic_width = true
 hide_when_empty = true
 max_width = 30
 [block.theme_overrides]
-idle_bg = "#3b4252"
-idle_fg = "#718ca8"
+idle_bg = "#dfbf8e"
+idle_fg = "#282828"

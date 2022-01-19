@@ -17,6 +17,7 @@ celluloid
 cmake
 cmatrix
 conky
+cowsay
 dex
 discord-canary
 dmidecode
@@ -68,8 +69,11 @@ paru
 pavucontrol
 picom-ibhagwan-git
 pipes.sh
+python-wheel
 qbittorrent
+qemu
 qt5-x11extras
+ranger
 raw-thumbnailer
 reflector-mirrorlist-update
 rofi
@@ -81,7 +85,6 @@ shell-color-scripts
 simple-scan
 spicetify-themes-git
 spotify-adblock-git
-sudo
 timeshift
 topgrade
 trayer

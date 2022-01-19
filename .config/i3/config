@@ -176,10 +176,10 @@ bar {
         separator #00000000
         background #00000000
         statusline #00000000
-        focused_workspace #434C5E #434C5E #7591AE
-        active_workspace #434C5E #434C5E #7591AE
-        inactive_workspace #2E3440 #2E3440 #7591AE
-        urgent_workspace #2f343a #900000 #7591AE
+        focused_workspace #dfbf8e #dfbf8e #282828
+        active_workspace #282828 #282828 #dfbf8e
+        inactive_workspace #282828 #282828 #dfbf8e
+        urgent_workspace #282828 #ea6962 #dfbf8e
     }
 }
 
@@ -189,8 +189,7 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec_always --no-startup-id picom -b --experimental-backends
 exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
-exec_always --no-startup-id imwheel --kill -b 45
-exec_always --no-startup-id dunst -conf ~/.config/dunst/dunstrc
+exec_always --no-startup-id dunst
 exec_always --no-startup-id imwheel -k -b 45
 exec --no-startup-id $HOME/.scripts/xidlehook.sh
 exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2

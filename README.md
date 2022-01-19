@@ -1,6 +1,6 @@
 # 📖 Jump to
 
-[nord-dotfiles](https://github.com/FaarisAnsari/dotfiles#-dotfiles)
+[dotfiles](https://github.com/FaarisAnsari/dotfiles#-dotfiles)
 
 [Permissions](https://github.com/FaarisAnsari/nord-dotfiles#-permissions)
 
@@ -15,9 +15,9 @@
 [Installation](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-installation)
 
 # 🔷 dotfiles
-Dotfiles for my Artix linux configurations, edited and maintained by FaarisAnsari.
+Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![Dotfiles](https://media.discordapp.net/attachments/635625925748457482/924318028982788096/Fetchmas.png)
+![Dotfiles](https://media.discordapp.net/attachments/635625917623828520/933435390109564938/unknown.png)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.

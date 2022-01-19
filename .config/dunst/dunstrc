@@ -1,5 +1,7 @@
 [colors]
-	background = "#2e3440"
+	background = "#282828"
+	foreground = "#dfbf8e"
+	frame = "#242424"
 
 [global]
     ### Display ###
@@ -7,26 +9,26 @@
     monitor = 0
     follow = keyboard
 
-    width = (222, 333)
-    height = 222
+    width = (222, 444)
+    height = (222,444)
     origin = top-right
-    offset = 10x36
+    offset = 12x36
    
     indicate_hidden = yes
     shrink = true
-    transparency = 20
-    separator_height = 2
-    horizontal_padding = 11
+    transparency = 25
+    separator_height = 3
+    horizontal_padding = 8
     frame_width = 3
     corner_radius = 8
 
-    frame_color = "#3B4252"
+    frame_color = "#dfbf8e"
     separator_color = auto
     sort = yes
-    idle_threshold = 120
-
+    idle_threshold = 0
+    
     ### Text ###
-    font = Hack Nerd Font, Font Awesome 9
+    font = Hack Nerd Font, Font Awesome
     #line_height = 0
 
     markup = full
@@ -41,7 +43,7 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "<b>%s %b</b>"
+    format = "<b>%s\n%b</b>"
     alignment = left
     show_age_threshold = 60
     word_wrap = true
@@ -84,11 +86,7 @@
 
 [dunstify]
     appname = dunstify
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side-testing.svg
-#    background = colors.background
-#    foreground = "#ECEFF4"
-#    frame_color = "#3b4252"
-
+    new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side.svg
 [zsh]
     appname = zsh
     new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/utilities-terminal.svg
@@ -105,20 +103,20 @@
 
 [urgency_low]
     background = colors.background
-    foreground = "#ECEFF4"
-    frame_color = "#3b4252"
+    foreground = colors.foreground
+    frame_color = colors.frame
     timeout = 5
 
 [urgency_normal]
     background = colors.background
-    foreground = "#ECEFF4"
-    frame_color = "#3b4252"
+    foreground = colors.foreground
+    frame_color = colors.frame
     timeout = 5
 
 [urgency_critical]
     background = colors.background
-    foreground = "#ECEFF4"
-    frame_color = "#3b4252"
+    foreground = colors.foreground
+    frame_color = colors.frame
     timeout = 10
 
 # vim: ft=conf

@@ -1588,11 +1588,7 @@ background_opacity 0.85
 #: }}}
 
 
-include ./nord.conf
-#include ./tokyonight.conf
-
-
 # BEGIN_KITTY_THEME
-# Monokai Classic
+# Gruvbox Material Dark Hard
 include current-theme.conf
 # END_KITTY_THEME
