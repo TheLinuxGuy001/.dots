@@ -21,8 +21,8 @@ idle_fg = "#282828"
 [[block]]
 block = "memory"
 display_type = "memory"
-format_mem = "{mem_used}"
-clickable = false
+format_mem = "{mem_used;M}"
+clickable = true
 [block.theme_overrides]
 idle_bg = "#282828"
 idle_fg = "#dfbf8e"

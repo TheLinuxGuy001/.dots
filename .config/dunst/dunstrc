@@ -28,7 +28,7 @@
     idle_threshold = 0
     
     ### Text ###
-    font = Hack Nerd Font, Font Awesome
+    font = Iosevka, Hack Nerd Font, Font Awesome
     #line_height = 0
 
     markup = full
