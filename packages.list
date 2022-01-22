@@ -1,6 +1,7 @@
 amd-ucode
+android-file-transfer
+android-tools
 apple-fonts
-appstream-glib
 asciidoc
 aur-auto-vote-git
 autoconf
@@ -10,8 +11,8 @@ base
 bison
 bottom
 bunnyfetch-git
-cabextract
 catfish
+catppuccin-gtk-theme
 cava-git
 celluloid
 cmake
@@ -20,13 +21,11 @@ conky
 cowsay
 dex
 discord-canary
-dmidecode
 dotnet-sdk
 eog
 epson-inkjet-printer-escpr2
 exa
 flex
-font-manager
 gedit
 gnome-disk-utility
 gnome-font-viewer
@@ -38,14 +37,12 @@ i3status-rust
 idle3-tools
 imwheel
 intltool
-jq
 kitty
 librewolf-bin
 lightdm-webkit-theme-aether
 linux-lts
 linux-zen
 lxappearance
-macchanger
 maim
 mate-polkit
 meson
@@ -63,7 +60,6 @@ obs-nvfbc
 onlyoffice-bin
 openrgb-git
 optipng
-paclist
 papirus-icon-theme-stripped-git
 paru
 pavucontrol
@@ -78,6 +74,7 @@ raw-thumbnailer
 reflector-mirrorlist-update
 rofi
 rust
+rxfetch
 sane-airscan
 screenkey
 scrot
@@ -90,9 +87,8 @@ topgrade
 trayer
 ttc-iosevka
 ttf-font-awesome-4
-ttf-font-logos
 ttf-joypixels
-uthash
+usbutils
 vala
 ventoy-bin
 vim
