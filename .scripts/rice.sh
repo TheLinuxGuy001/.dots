@@ -6,3 +6,4 @@ kitty cava & librewolf & kitty $HOME/.scripts/rsclock.sh & $HOME/.scripts/spotif
 sleep 1
 i3-msg reload
 dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Play
+notify-send 'Welcome.' 'rice loaded.'

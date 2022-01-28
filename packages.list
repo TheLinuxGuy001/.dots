@@ -2,7 +2,6 @@ amd-ucode
 android-tools
 apple-fonts
 arandr
-asciidoc
 aur-auto-vote-git
 autoconf
 automake
@@ -133,5 +132,4 @@ xorg-xwud
 xow-git
 yelp-tools
 zenmonitor3-git
-zramd
 zsh-syntax-highlighting
