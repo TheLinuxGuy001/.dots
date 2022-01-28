@@ -1,7 +1,7 @@
 amd-ucode
-android-file-transfer
 android-tools
 apple-fonts
+arandr
 asciidoc
 aur-auto-vote-git
 autoconf
@@ -66,7 +66,6 @@ pavucontrol
 picom-ibhagwan-git
 pipes.sh
 python-wheel
-qbittorrent
 qemu
 qt5-x11extras
 ranger
