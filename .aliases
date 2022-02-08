@@ -15,3 +15,5 @@ alias yay='paru'
 
 alias i3conf="nano $HOME/.config/i3/config"
 alias picomconf="nano $HOME/.config/picom.conf"
+
+alias pacclean="sudo pacman -Rns $(pacman -Qtdq)"
