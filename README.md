@@ -81,11 +81,9 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 ```
 $ sudo pacman -Sy --needed git
 $ cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
-$ ln -svf ~/dotfiles/.config/* ~/.config/
-$ ln -svf .zshrc ~/.zshrc
+$ ln -svf .config/* ~/.config/
+$ ln -svf .fonts/* ~/.fonts/
 $ ln -svf .scripts ~/.scripts
 $ ln -svf .aliases ~/.aliases
-$ ln -svf .gtkrc-2.0 ~/.gtkrc-2.0
-$ ln -svf .xprofile ~/.xprofile
 ```
 This will create symlinks and overwrite files. Please backup your current configs before installing!
