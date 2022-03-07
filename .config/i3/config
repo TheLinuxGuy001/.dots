@@ -176,10 +176,10 @@ bar {
         separator #00000000
         background #00000000
         statusline #00000000
-        focused_workspace #dfbf8e #dfbf8e #282828
-        active_workspace #282828 #282828 #dfbf8e
-        inactive_workspace #282828 #282828 #dfbf8e
-        urgent_workspace #282828 #ea6962 #dfbf8e
+        focused_workspace #D9E0EE #D9E0EE #1E1E2E
+        active_workspace #1E1E2E #1E1E2E #D9E0EE
+        inactive_workspace #1E1E2E #1E1E2E #D9E0EE
+        urgent_workspace #1E1E2E #ea6962 #D9E0EE
     }
 }
 
@@ -201,7 +201,8 @@ exec_always --no-startup-id xset r rate 275 45
 for_window [class="^.*"] border pixel 0
 
 ## start rofi (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launcher.rasi
+#bindsym $mod+d exec --no-startup-id rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/rofi/launcher.rasi
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 ## Start rofi exit
 bindsym $mod+Shift+e exec ~/.config/rofi/powermenu.sh

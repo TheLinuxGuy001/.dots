@@ -1,8 +1,3 @@
-[colors]
-	background = "#282828"
-	foreground = "#dfbf8e"
-	frame = "#242424"
-
 [global]
     ### Display ###
 
@@ -10,7 +5,7 @@
     follow = keyboard
 
     width = (222, 444)
-    height = (222,444)
+    height = (222, 444)
     origin = top-right
     offset = 12x36
    
@@ -28,7 +23,7 @@
     idle_threshold = 0
     
     ### Text ###
-    font = Iosevka, Hack Nerd Font, Font Awesome
+    font = Iosevka, Font Awesome
     #line_height = 0
 
     markup = full
@@ -73,9 +68,6 @@
 [experimental]
     per_monitor_dpi = false
 
-[log_notifs]
-    script = ~/.config/rofi/notification/dunst_logger.sh
-
 [dunst_icon]
     appname = dunst
     new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/bell.svg
@@ -87,36 +79,21 @@
 [dunstify]
     appname = dunstify
     new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side.svg
-[zsh]
-    appname = zsh
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/utilities-terminal.svg
   
-[firefox]
-    appname = firefox
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/firefox-default.svg
-  
-[shortcuts]
-    close = ctrl+space
-    close_all = ctrl+shift+space
-#    #context = ctrl+shift+period
-#    history = ctrl+grave
-
 [urgency_low]
-    background = colors.background
-    foreground = colors.foreground
-    frame_color = colors.frame
+    background = "#1E1E2E"
+    foreground = "#D9E0EE"
+    frame_color = "#575268"
     timeout = 5
 
 [urgency_normal]
-    background = colors.background
-    foreground = colors.foreground
-    frame_color = colors.frame
+    background = "#1E1E2E"
+    foreground = "#D9E0EE"
+    frame_color = "#575268"
     timeout = 5
 
 [urgency_critical]
-    background = colors.background
-    foreground = colors.foreground
-    frame_color = colors.frame
+    background = "#1E1E2E"
+    foreground = "#D9E0EE"
+    frame_color = "#575268"
     timeout = 10
-
-# vim: ft=conf

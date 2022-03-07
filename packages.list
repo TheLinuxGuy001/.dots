@@ -29,6 +29,7 @@ gnome-font-viewer
 gnome-system-monitor
 go
 hplip
+htop
 i3-volume
 i3status-rust
 idle3-tools
@@ -58,6 +59,7 @@ obs-nvfbc
 onlyoffice-bin
 openrgb-git
 optipng
+pacman-contrib
 papirus-icon-theme-stripped-git
 paru
 pavucontrol
@@ -77,8 +79,7 @@ shell-color-scripts
 simple-scan
 spicetify-themes-git
 spotify-adblock-git
-sudo
-timeshift
+timeshift-autosnap
 topgrade
 trayer
 ttc-iosevka
@@ -87,7 +88,6 @@ ttf-joypixels
 usbutils
 vala
 ventoy-bin
-vim
 whatsapp-nativefier
 xclip
 xdg-user-dirs
