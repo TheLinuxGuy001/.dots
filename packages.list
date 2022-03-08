@@ -67,6 +67,7 @@ pavucontrol
 picom-ibhagwan-git
 pipes.sh
 polybar
+proton-ge-custom-bin
 python-wheel
 qemu
 raw-thumbnailer
@@ -86,7 +87,6 @@ trayer
 ttc-iosevka
 ttf-font-awesome-4
 ttf-joypixels
-usbutils
 vala
 ventoy-bin
 whatsapp-nativefier
