@@ -35,7 +35,7 @@ idle_bg = "#1E1E2E"
 
 [[block]]
 block = "custom"
-command = "uname -r"
+command = "$HOME/.scripts/ver.sh"
 interval = "once"
 [block.theme_overrides]
 idle_bg = "#D9E0EE"

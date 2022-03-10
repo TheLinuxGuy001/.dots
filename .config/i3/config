@@ -224,3 +224,5 @@ focus_follows_mouse no
 gaps inner 24
 gaps outer 0
 gaps top -24
+
+for_window [class="Minecraft 1.8.9"] floating enable

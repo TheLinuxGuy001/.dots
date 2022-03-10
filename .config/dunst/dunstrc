@@ -79,7 +79,9 @@
 [dunstify]
     appname = dunstify
     new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side.svg
-  
+    highlight = "#96CDFB"
+    foreground = "#D9E0EE"
+    no  
 [urgency_low]
     background = "#1E1E2E"
     foreground = "#D9E0EE"
