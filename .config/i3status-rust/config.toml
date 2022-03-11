@@ -11,7 +11,7 @@ idle_fg = "#1E1E2E"
 
 [[block]]
 block = "weather"
-format = "{weather_verbose} {temp}"
+format = "{weather} {temp}"
 service = { name = "openweathermap", api_key = "24e8f05e46f42d367e05181472312479", city_id = "2636663", units = "metric" }
 [block.theme_overrides]
 idle_fg = "#D9E0EE"
