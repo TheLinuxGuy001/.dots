@@ -235,9 +235,9 @@ bindsym Shift+Print exec --no-startup-id maim --select -u -B | xclip -selection 
 
 ## other configurations
 focus_follows_mouse no
-gaps inner 24
+gaps inner 16
 gaps outer 0
-gaps top -24
+gaps top -16
 workspace "2" gaps top 0
 workspace "4" gaps top 0
 workspace "6" gaps top 0
