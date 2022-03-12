@@ -17,7 +17,7 @@
 # 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![Dotfiles](https://media.discordapp.net/attachments/635625917623828520/933435390109564938/unknown.png)
+![Dotfiles](https://cdn.discordapp.com/attachments/635625917623828520/952180545759096872/unknown.png)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.

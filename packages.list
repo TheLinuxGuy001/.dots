@@ -43,6 +43,7 @@ meson
 multimc-bin
 nano
 neofetch
+neovim
 nerd-fonts-hack
 nodejs-nativefier
 noisetorch
@@ -81,9 +82,7 @@ ttf-symbola
 vala
 ventoy-bin
 whatsapp-nativefier
-xclip
 xdg-user-dirs
-xf86-video-vesa
 xidlehook-git
 xorg-bdftopcf
 xorg-docs
