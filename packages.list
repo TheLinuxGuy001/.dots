@@ -29,7 +29,6 @@ go
 hplip
 i3-volume
 i3status-rust
-idle3-tools
 imwheel
 inxi
 kitty
@@ -61,6 +60,7 @@ pavucontrol
 picom-ibhagwan-git
 qemu
 raw-thumbnailer
+refind-btrfs
 reflector-mirrorlist-update
 rofi
 rust
@@ -80,7 +80,6 @@ ttf-joypixels
 ttf-symbola
 vala
 ventoy-bin
-vlc
 whatsapp-nativefier
 xclip
 xdg-user-dirs
@@ -120,6 +119,5 @@ xorg-xwayland
 xorg-xwd
 xorg-xwud
 xow-git
-yelp-tools
 zenmonitor3-git
 zsh-syntax-highlighting

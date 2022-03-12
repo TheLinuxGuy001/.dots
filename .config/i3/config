@@ -14,14 +14,16 @@
 # Windows Key
 
 set $mod Mod4
+set $m1 DP-2
+set $m2 DP-0
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Iosevka 10
+font pango:SF Pro Display 11
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
+#font pango:SF Pro Display 11
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -107,6 +109,17 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
+workspace $ws1 output $m1
+workspace $ws2 output $m2 $m1
+workspace $ws3 output $m1
+workspace $ws4 output $m2 $m1
+workspace $ws5 output $m1              
+workspace $ws6 output $m2 $m1
+workspace $ws7 output $m1 
+workspace $ws8 output $m2 $m1 
+workspace $ws9 output $m1
+workspace $ws10 output $m2 $m1
+
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
 bindsym $mod+2 workspace number $ws2
@@ -171,6 +184,7 @@ bar {
     position top
     tray_output none
     status_command i3status-rs ~/.config/i3status-rust/config.toml
+    # output DP-2
     i3bar_command i3bar --transparency
     colors {
         separator #00000000
@@ -224,5 +238,10 @@ focus_follows_mouse no
 gaps inner 24
 gaps outer 0
 gaps top -24
+workspace "2" gaps top 0
+workspace "4" gaps top 0
+workspace "6" gaps top 0
+workspace "8" gaps top 0
+workspace "10" gaps top 0
 
 for_window [class="Minecraft 1.8.9"] floating enable
