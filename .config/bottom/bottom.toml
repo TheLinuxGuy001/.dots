@@ -150,7 +150,7 @@ mem_as_value = true
 
 [mount_filter]
 is_list_ignored = true
-list = ["/mnt/.*", "/home", "/tmp", "/run/timeshift/.*"]
+list = ["/mnt/.*", "/home", "/tmp", "/run/timeshift/.*", "/var"]
 regex = true
 case_sensitive = false
 whole_word = false
