@@ -43,7 +43,7 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [neofetch](https://github.com/dylanaraps/neofetch "neofetch on GitHub")
 
-[ibhagwan's fork of Picom](https://github.com/ibhagwan/picom "ibhagwan's fork of Picom on GitHub")
+[jonaburg's rounded fix fork of Picom](https://github.com/Arian8j2/picom-jonaburg-fix "Arian8j2's fork of Picom on GitHub")
 
 [rofi](https://github.com/davatorium/rofi "rofi on GitHub")
 
