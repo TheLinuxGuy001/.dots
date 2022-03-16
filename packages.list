@@ -1,6 +1,7 @@
 amd-ucode
 android-tools
 anki-bin
+anydesk-bin
 apple-fonts
 aur-auto-vote-git
 automake
@@ -37,6 +38,7 @@ lightdm-webkit-theme-aether
 linux-lts
 linux-zen
 lxappearance
+lxc
 maim
 mate-polkit
 meson

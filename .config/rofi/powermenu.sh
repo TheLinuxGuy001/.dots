@@ -32,6 +32,7 @@ $lock)
   ~/.scripts/lock.sh
   ;;
 $suspend)
+  ~/.scripts/lock.sh
   systemctl suspend
   ;;
 $logout)
