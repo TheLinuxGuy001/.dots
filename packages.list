@@ -15,6 +15,7 @@ cava-git
 celluloid
 cmake
 cmatrix
+colorpicker
 dex
 discord-canary
 dotnet-sdk
