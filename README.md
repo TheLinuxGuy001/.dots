@@ -41,6 +41,8 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [i3status-rust](https://github.com/greshake/i3status-rust "i3status-rust on GitHub")
 
+[Polybar](https://github.com/polybar/polybar)
+
 [neofetch](https://github.com/dylanaraps/neofetch "neofetch on GitHub")
 
 [jonaburg's rounded fix fork of Picom](https://github.com/Arian8j2/picom-jonaburg-fix "Arian8j2's fork of Picom on GitHub")
