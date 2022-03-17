@@ -179,31 +179,32 @@ bindsym $mod+r mode "resize"
 
 
 ## i3status-rust
-bar {
-    font pango:Iosevka 16
-    position top
-    tray_output none
-    status_command i3status-rs ~/.config/i3status-rust/config.toml
-    # output DP-2
-    i3bar_command i3bar --transparency
-    colors {
-        separator #00000000
-        background #00000000
-        statusline #00000000
-        focused_workspace #D9E0EE #D9E0EE #1E1E2E
-        active_workspace #1E1E2E #1E1E2E #D9E0EE
-        inactive_workspace #1E1E2E #1E1E2E #D9E0EE
-        urgent_workspace #1E1E2E #ea6962 #D9E0EE
-    }
-}
+#bar {
+#    font pango:Iosevka 16
+#    position top
+#    tray_output none
+#    status_command i3status-rs ~/.config/i3status-rust/config.toml
+#    # output DP-2
+#    i3bar_command i3bar --transparency
+#    colors {
+#        separator #00000000
+#        background #00000000
+#        statusline #00000000
+#        focused_workspace #D9E0EE #D9E0EE #1E1E2E
+#        active_workspace #1E1E2E #1E1E2E #D9E0EE
+#        inactive_workspace #1E1E2E #1E1E2E #D9E0EE
+#        urgent_workspace #1E1E2E #ea6962 #D9E0EE
+#    }
+#}
 
 ## Startup Commands
 exec --no-startup-id nvidia-settings --load-config-only
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec --no-startup-id $HOME/.scripts/xidlehook.sh
-exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2 --monitor primary
+#exec --no-startup-id trayer --edge top --align right --transparent true --alpha 255 --padding 2 --iconspacing 2 --monitor primary
 # exec --no-startup-id conky -c $HOME/.config/conky/nord.conkyrc
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec_always --no-startup-id picom -b --experimental-backends
 exec_always --no-startup-id for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done
@@ -235,13 +236,13 @@ bindsym Shift+Print exec --no-startup-id maim --select -u -B | xclip -selection 
 
 ## other configurations
 focus_follows_mouse no
-gaps inner 16
+gaps inner 12
 gaps outer 0
-gaps top -16
-workspace "2" gaps top 0
-workspace "4" gaps top 0
-workspace "6" gaps top 0
-workspace "8" gaps top 0
-workspace "10" gaps top 0
+#gaps top -16
+#workspace "2" gaps top 0
+#workspace "4" gaps top 0
+#workspace "6" gaps top 0
+#workspace "8" gaps top 0
+#workspace "10" gaps top 0
 
 for_window [class="Minecraft 1.8.9"] floating enable
