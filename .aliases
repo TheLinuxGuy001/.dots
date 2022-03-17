@@ -9,6 +9,7 @@ alias ls='exa --icons --group-directories-first'
 alias tree='exa --icons --tree'
 
 alias dotpush='$HOME/.scripts/push.sh'
+alias catpush='$HOME/.scripts/catpush.sh'
 
 alias cat='bat'
 alias yay='paru'

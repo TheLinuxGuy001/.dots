@@ -7,7 +7,7 @@
     width = (222, 444)
     height = (222, 444)
     origin = top-right
-    offset = 12x36
+    offset = 16x48
    
     indicate_hidden = yes
     shrink = true
