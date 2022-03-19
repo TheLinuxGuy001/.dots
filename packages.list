@@ -4,6 +4,7 @@ anki-bin
 anydesk-bin
 apple-fonts
 aur-auto-vote-git
+autoconf
 automake
 baobab
 base
@@ -11,7 +12,7 @@ bison
 bottom
 catfish
 catppuccin-gtk-theme
-cava-git
+cava
 celluloid
 cmake
 cmatrix
