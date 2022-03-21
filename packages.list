@@ -1,7 +1,6 @@
 amd-ucode
 android-tools
 anki-bin
-anydesk-bin
 apple-fonts
 aur-auto-vote-git
 autoconf
@@ -23,6 +22,7 @@ dotnet-sdk
 eog
 epson-inkjet-printer-escpr2
 exa
+firefox
 flex
 gedit
 gnome-disk-utility
@@ -31,16 +31,17 @@ gnome-system-monitor
 go
 hplip
 i3-volume
+i3lock-fancy-multimonitor
 i3status-rust
 imwheel
 inxi
 kitty
 librewolf-bin
-lightdm-webkit-theme-aether
 linux-lts
 linux-zen
 lxappearance
 lxc
+ly
 maim
 mate-polkit
 meson
@@ -71,7 +72,6 @@ rofi
 rust
 rxfetch
 sane-airscan
-scrot
 shell-color-scripts
 simple-scan
 spicetify-themes-git
