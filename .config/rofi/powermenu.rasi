@@ -16,7 +16,7 @@ window {
     border-radius:                  12px;
     width:                          100px;
     location:                       west;
-    x-offset:                       -5px;
+    x-offset:                       5px;
     y-offset:                       0px;
 }
 
