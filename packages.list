@@ -50,6 +50,7 @@ neovim
 nerd-fonts-hack
 nodejs-nativefier
 noisetorch
+nomacs
 nordic-wallpapers-git
 nvidia-dkms
 obs-nvfbc
@@ -60,7 +61,7 @@ paru
 pavucontrol
 picom-jonaburg-fix
 polybar
-polymc-git
+polymc
 pulseaudio-control
 qemu
 raw-thumbnailer
