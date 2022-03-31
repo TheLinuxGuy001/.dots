@@ -1,6 +1,6 @@
 amd-ucode
+android-file-transfer
 android-tools
-anki-bin
 anydesk-bin
 apple-fonts
 aur-auto-vote-git
@@ -16,6 +16,7 @@ cava
 celluloid
 cmake
 colorpicker
+cpupower
 dex
 discord-canary
 dotnet-sdk
@@ -24,6 +25,7 @@ epson-inkjet-printer-escpr2
 exa
 firefox
 flex
+font-manager
 gedit
 gnome-disk-utility
 gnome-system-monitor
@@ -40,7 +42,6 @@ lightdm-webkit-theme-aether-git
 linux-lts
 linux-zen
 lxappearance
-lxc
 maim
 mate-polkit
 meson
@@ -50,18 +51,20 @@ neovim
 nerd-fonts-hack
 nodejs-nativefier
 noisetorch
-nomacs
 nordic-wallpapers-git
 nvidia-dkms
 obs-nvfbc
 onlyoffice-bin
+openntpd
 openrgb-git
 papirus-icon-theme-stripped-git
 paru
 pavucontrol
+perl-text-iconv
 picom-jonaburg-fix
 polybar
 polymc
+pridecat-git
 pulseaudio-control
 qemu
 raw-thumbnailer
@@ -73,7 +76,6 @@ rxfetch
 shell-color-scripts
 spicetify-themes-git
 spotify-adblock-git
-testdisk
 timeshift
 toilet
 trayer
@@ -81,7 +83,6 @@ ttc-iosevka
 ttf-font-awesome-4
 ttf-joypixels
 ttf-symbola
-vala
 ventoy-bin
 whatsapp-nativefier
 xdg-user-dirs
