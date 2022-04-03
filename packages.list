@@ -1,5 +1,4 @@
 amd-ucode
-android-file-transfer
 android-tools
 anydesk-bin
 apple-fonts
@@ -21,15 +20,18 @@ dex
 discord-canary
 dotnet-sdk
 downgrade
+eog
 epson-inkjet-printer-escpr2
 exa
 firefox
 flex
 font-manager
+gamemode
 gedit
 gnome-disk-utility
 gnome-system-monitor
 go
+goverlay-bin
 hplip
 i3-volume
 i3lock-fancy-multimonitor
@@ -37,6 +39,7 @@ i3status-rust
 imwheel
 inxi
 kitty
+lib32-mangohud
 librewolf-bin
 lightdm-webkit-theme-aether-git
 linux-lts
@@ -53,7 +56,8 @@ nodejs-nativefier
 noisetorch
 nordic-wallpapers-git
 nvidia-dkms
-obs-nvfbc
+nvidia-vaapi-driver-git
+obs-nvfbc-git
 onlyoffice-bin
 openntpd
 openrgb-git
@@ -62,9 +66,9 @@ paru
 pavucontrol
 perl-text-iconv
 picom-jonaburg-fix
+pkgconf
 polybar
 polymc
-pridecat-git
 pulseaudio-control
 qemu
 raw-thumbnailer
@@ -85,6 +89,7 @@ ttf-joypixels
 ttf-symbola
 ventoy-bin
 whatsapp-nativefier
+wine
 xdg-user-dirs
 xidlehook-git
 xorg-bdftopcf
