@@ -10,7 +10,7 @@ base
 bison
 bottom
 bridge-utils
-bspwm-rounded-corners
+bspwm
 catfish
 catppuccin-gtk-theme
 cava
@@ -50,6 +50,7 @@ maim
 mangohud
 mate-polkit
 meson
+mkmm
 nano
 neofetch
 neovim

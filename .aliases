@@ -15,5 +15,7 @@ alias catpush='$HOME/.scripts/catpush.sh'
 alias yay='paru'
 
 alias i3conf="nano $HOME/.config/i3/config"
+alias bspwmconf="nano $HOME/.config/bspwm/bspwmrc"
+alias sxhkdconf="nano $HOME/.config/sxhkd/sxhkdrc"
 alias picomconf="nano $HOME/.config/picom.conf"
 alias updates="checkupdates && paru -Qum"

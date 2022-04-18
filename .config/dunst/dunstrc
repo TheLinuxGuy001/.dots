@@ -15,7 +15,7 @@
     separator_height = 3
     horizontal_padding = 8
     frame_width = 3
-    corner_radius = 8
+    corner_radius = 6
 
     frame_color = "#dfbf8e"
     separator_color = auto
