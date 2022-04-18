@@ -36,6 +36,6 @@ $suspend)
   systemctl suspend
   ;;
 $logout)
-  i3-msg exit
+  bspc quit
   ;;
 esac

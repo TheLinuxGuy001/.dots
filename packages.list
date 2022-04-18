@@ -10,6 +10,7 @@ base
 bison
 bottom
 bridge-utils
+bspwm-rounded-corners
 catfish
 catppuccin-gtk-theme
 cava
@@ -22,7 +23,8 @@ discord-canary
 dotnet-sdk
 downgrade
 edk2-ovmf
-eog
+efifs
+eom
 epson-inkjet-printer-escpr2
 exa
 flex
@@ -33,10 +35,10 @@ gnome-system-monitor
 go
 gperftools
 hplip
+hw-probe
 i3-volume
 i3lock-fancy-multimonitor
 imwheel
-inxi
 kitty
 lib32-mangohud
 librewolf-bin
@@ -72,7 +74,6 @@ polymc
 pulseaudio-control
 qbittorrent
 raw-thumbnailer
-refind-btrfs
 reflector-mirrorlist-update
 rofi
 rust
@@ -96,6 +97,7 @@ whatsapp-nativefier
 wine-staging
 xdg-user-dirs
 xidlehook-git
+xkbsel
 xorg-bdftopcf
 xorg-docs
 xorg-font-util
