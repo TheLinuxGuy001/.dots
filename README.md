@@ -1,4 +1,4 @@
-## 📖 Jump to
+# 📖 Jump to
 
 [dotfiles](https://github.com/FaarisAnsari/dotfiles#-dotfiles)
 
