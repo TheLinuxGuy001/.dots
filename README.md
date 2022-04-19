@@ -17,43 +17,41 @@
 # 🔷 dotfiles
 Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
 
-![Dotfiles](https://media.discordapp.net/attachments/635625917623828520/954137050595086346/unknown.png)
+![Dotfiles](preview.png)
 
 ## 🙏 Permissions
 All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.
 
 ## 🖥️ Wallpapers
-Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on GitHub") for these beautiful wallpapers!
+These wallpapers were made with the work of catppuccinFactory!
 
-[nordic-wallpapers](https://github.com/linuxdotexe/nordic-wallpapers "nordic-wallpapers on GitHub")
+[catFactory](https://github.com/FaarisAnsari/catppuccin-factory "catFactory on GitHub")
 
 ## 👨‍💻 Dependencies
 
-[i3-gaps](https://github.com/Airblader/i3 "i3-gaps on GitHub")
+[bspwm (rounded corners)](https://github.com/phuhl/bspwm-rounded "bspwm on GitHub")
 
-[Xorg](https://wiki.archlinux.org/title/xorg "Xorg on Arch Wiki")
-
-[NightTab](https://chrome.google.com/webstore/detail/nighttab/hdpcadigjkbcpnlcpbcohpafiaefanki?hl=en-GB "NightTab on Chrome Webstore")
+[NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/ "NightTab on Firefox Webstore")
 
 [Kitty](https://github.com/kovidgoyal/kitty "Kitty on GitHub")
 
 [Cava](https://github.com/karlstav/cava "Cava on GitHub")
 
-[i3status-rust](https://github.com/greshake/i3status-rust "i3status-rust on GitHub")
-
 [Polybar](https://github.com/polybar/polybar)
 
 [neofetch](https://github.com/dylanaraps/neofetch "neofetch on GitHub")
+
+[rsfetch](https://github.com/Phate6660/rsfetch "rsfetch on GitHub")
 
 [jonaburg's rounded fix fork of Picom](https://github.com/Arian8j2/picom-jonaburg-fix "Arian8j2's fork of Picom on GitHub")
 
 [rofi](https://github.com/davatorium/rofi "rofi on GitHub")
 
-[i3lock-color](https://github.com/Raymo111/i3lock-color "i3lock-color on GitHub")
-
 [xidlehook](https://github.com/jD91mZM2/xidlehook "xidlehook on github")
 
 [bottom](https://github.com/ClementTsang/bottom "bottom on github")
+
+[Dunst (needed for i3-volume)](https://github.com/dunst-project/dunst "Dunst on GitHub")
 
 ## 👩‍💻 Dependencies without configs / scripts
 
@@ -62,27 +60,20 @@ Huge thanks to [@linuxdotexe](https://github.com/linuxdotexe/ "@linuxdotexe on G
 
 [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh "OhMyZsh on GitHub")
 
-[Dunst (needed for i3-volume)](https://github.com/dunst-project/dunst "Dunst on GitHub")
-
 [i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
 
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k "Powerlevel10k on GitHub")
 
 [rsClock](https://github.com/valebes/rsClock "rsClock on GitHub")
 
-[spicetify](https://github.com/khanhas/spicetify-cli "spicetify-cli on GitHub")
-
-[spotify (needed for spicetify)](https://www.spotify.com/us/download/linux/ "Spotify for Linux")
-
 [Librewolf](https://librewolf.net/ "librewolf")
-
-[🎄 Treefetch](https://github.com/angelofallars/treefetch "treefetch")
 
 ## ✔️ Installation
 
 ```
 $ sudo pacman -Sy --needed git
 $ cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
+$ cd dotfiles
 $ ln -svf .config/* ~/.config/
 $ ln -svf .fonts/* ~/.fonts/
 $ ln -svf .scripts ~/.scripts
