@@ -36,9 +36,10 @@ nano
 neofetch
 neovim
 noisetorch
+notepadqq
 nvidia
 nvidia-vaapi-driver-git
-openrgb
+openrgb-bin
 pacman-contrib
 papirus-icon-theme-stripped-git
 paru
@@ -53,11 +54,13 @@ reflector
 ripgrep
 rsfetch-git
 starship
-thunar
+steam
 timeshift
 toilet
 topgrade
 ttc-iosevka
+unrar
+unzip
 ventoy-bin
 vulkan-tools
 wine-staging
@@ -100,4 +103,5 @@ xorg-xwud
 xow-git
 yuzu-mainline-bin
 zenmonitor3-git
+zip
 zsh-syntax-highlighting
