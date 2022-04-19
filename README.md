@@ -53,16 +53,16 @@ These wallpapers were made with the work of catppuccinFactory!
 
 [Dunst (needed for i3-volume)](https://github.com/dunst-project/dunst "Dunst on GitHub")
 
-## 👩‍💻 Dependencies without configs / scripts
+[i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
+
+## 👩‍💻 Other Useful Tidbits
 
 
 [zsh](https://www.zsh.org/ "zsh")
 
 [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh "OhMyZsh on GitHub")
 
-[i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
-
-[Powerlevel10k](https://github.com/romkatv/powerlevel10k "Powerlevel10k on GitHub")
+[Starship Prompt](https://github.com/starship/starship "Starship on github")
 
 [rsClock](https://github.com/valebes/rsClock "rsClock on GitHub")
 
