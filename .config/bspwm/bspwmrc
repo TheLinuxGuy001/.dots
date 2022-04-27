@@ -3,6 +3,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd & 
 
+imwheel -k -b 45 &
 nitrogen --restore &
 picom -b --experimental-backends &
 for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done &
@@ -36,6 +37,5 @@ bspc config gapless_monocle      false
 	nvidia-settings --load-config-only &
 	/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 	$HOME/.scripts/xidlehook.sh &
-	imwheel -k -b 45 &
 	/usr/bin/openrgb --startminimized --profile "blue" &
 }

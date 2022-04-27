@@ -1,11 +1,12 @@
 #!/bin/bash
 # Author: https://github.com/AlphaTechnolog
-
+# Adapted by: https://github.com/Fxzzi
 user="${USER}"
 shell="$(basename ${SHELL})"
 distro=$(. /etc/os-release ; echo "$ID")
 wm="$(xprop -id $(xprop -root -notype | awk '$1=="_NET_SUPPORTING_WM_CHECK:"{print $5}') -notype -f _NET_WM_NAME 8t | grep "WM_NAME" | cut -f2 -d \")"
 kernel="$(uname -r | cut -d '-' -f1)"
+packages="$(pacman -Q | wc -l)"
 
 white='\033[37m'
 cyan='\033[36m'
@@ -34,11 +35,10 @@ repeat_by_len () {
 printf '%b' "
 ${bold}${blue}       ██           ${end}${bold}${blue}${user}${cyan}@${purple}$(cat /etc/hostname)${end}
 ${bold}${blue}      ████          ${end}${green}$(repeat_by_len "${user}@$(cat /etc/hostname)" "─")
-${bold}${blue}      ▀████         ${end}
-${bold}${blue}    ██▄ ████        ${end}${bold}${purple}  ${blue}os${green} ${magenta} ${cyan}${distro}${end}
-${bold}${blue}   ██████████       ${end}${bold}${purple} ${blue}sh${green} ${magenta} ${cyan}${shell}${end}
-${bold}${blue}  ████▀  ▀████      ${end}${bold}${purple}  ${blue}wm${green} ${magenta} ${cyan}${wm}${end}
-${bold}${blue} ████▀    ▀████     ${end}${bold}${purple}  ${blue}kr${green} ${magenta} ${cyan}${kernel}${end}
-${bold}${blue}▀▀▀          ▀▀▀
-
+${bold}${blue}      ▀████         ${end}${bold}${purple}  ${blue}os${green} ${magenta} ${cyan}${distro}${end}
+${bold}${blue}    ██▄ ████        ${end}${bold}${purple} ${blue}sh${green} ${magenta} ${cyan}${shell}${end}
+${bold}${blue}   ██████████       ${end}${bold}${purple}  ${blue}wm${green} ${magenta} ${cyan}${wm}${end}
+${bold}${blue}  ████▀  ▀████      ${end}${bold}${purple}  ${blue}kr${green} ${magenta} ${cyan}${kernel}${end}
+${bold}${blue} ████▀    ▀████     ${end}${bold}${purple}  ${blue}pk${green} ${magenta} ${cyan}${packages}${end}
+${bold}${blue}▀▀▀          ▀▀▀    
 "

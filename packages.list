@@ -11,9 +11,9 @@ bottom
 catppuccin-gtk-theme
 cava
 celluloid
-cemu
 cfs-zen-tweaks
 chrony
+colorpicker
 discord-canary
 epson-inkjet-printer-escpr2
 exa
@@ -52,7 +52,6 @@ picom-jonaburg-git
 pkgconf
 polybar
 polymc-bin
-protonvpn-gui
 pulseaudio-control
 qbittorrent
 reflector
@@ -66,6 +65,7 @@ timeshift
 toilet
 topgrade
 unrar
+unzip
 ventoy-bin
 xf86-video-vesa
 xidlehook-git

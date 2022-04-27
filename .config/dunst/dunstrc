@@ -7,23 +7,22 @@
     width = (222, 444)
     height = (222, 444)
     origin = top-right
-    offset = 16x48
+    offset = 11x58
    
     indicate_hidden = yes
     shrink = true
-    transparency = 25
+    transparency = 20
     separator_height = 3
     horizontal_padding = 8
     frame_width = 3
     corner_radius = 6
-
-    frame_color = "#dfbf8e"
-    separator_color = auto
+    frame_color = "#96CDFB"
+    separator_color= frame
     sort = yes
     idle_threshold = 0
     
     ### Text ###
-    font = Iosevka, Font Awesome
+    font = Iosevka Nerd Font
     #line_height = 0
 
     markup = full
@@ -80,22 +79,20 @@
     appname = dunstify
     new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side.svg
     highlight = "#96CDFB"
-    foreground = "#D9E0EE"
-    no  
+    foreground = "#D9E0EE"  
+
 [urgency_low]
     background = "#1E1E2E"
     foreground = "#D9E0EE"
-    frame_color = "#575268"
     timeout = 5
 
 [urgency_normal]
     background = "#1E1E2E"
     foreground = "#D9E0EE"
-    frame_color = "#575268"
     timeout = 5
 
 [urgency_critical]
     background = "#1E1E2E"
     foreground = "#D9E0EE"
-    frame_color = "#575268"
-    timeout = 10
+    frame_color = "#F8BD96"
+    timeout = 8
