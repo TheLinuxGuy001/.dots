@@ -34,7 +34,7 @@ super + f
 super + shift + Escape
 	~/.scripts/lock.sh
 
-#Hardware
+## Hardware
 XF86AudioRaiseVolume
 	i3-volume -n up 5 -x 100 -y
 XF86AudioLowerVolume
@@ -42,7 +42,8 @@ XF86AudioLowerVolume
 XF86AudioMute
 	i3-volume -n mute -y
 
-#Window Management
+## Window Management
+
 # quit/restart bspwm
 super + shift + {q,r}
 	bspc {quit,wm -r}
@@ -68,6 +69,5 @@ super + space
 super + m 
   bspc desktop -l next
 
-#Workspaces
 super + {_,shift + }{1-9,0}
   bspc {desktop -f, node -d} '{1-9,10}'

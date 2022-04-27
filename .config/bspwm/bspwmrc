@@ -7,7 +7,7 @@ imwheel -k -b 45 &
 nitrogen --restore &
 picom -b --experimental-backends &
 for id in $(xinput list | grep "pointer" | cut -d '=' -f 2 | cut -f 1); do xinput --set-prop $id 'libinput Accel Profile Enabled' 0, 1; done &
-dunst -conf ~/.config/dunst/dunstrc &
+#dunst -conf ~/.config/dunst/dunstrc &
 $HOME/.config/polybar/launch.sh &
 xset r rate 275 45 &
 
