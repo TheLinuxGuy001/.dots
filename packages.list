@@ -22,7 +22,6 @@ font-manager
 gamemode
 gnome-disk-utility
 goverlay-bin
-grapejuice
 hplip
 i3-volume
 i3lock-fancy-multimonitor
@@ -56,7 +55,6 @@ pulseaudio-control
 qbittorrent
 reflector
 ripgrep
-rsfetch-git
 simplescreenrecorder
 starship
 steam
@@ -67,6 +65,8 @@ topgrade
 unrar
 unzip
 ventoy-bin
+wine-staging
+xdg-user-dirs
 xf86-video-vesa
 xidlehook-git
 xone-dkms-git
