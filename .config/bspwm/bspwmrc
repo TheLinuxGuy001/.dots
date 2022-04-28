@@ -31,7 +31,7 @@ bspc config gapless_monocle      false
 #bspc rule -a Screenkey manage=off
 
 [ "$1" = 0 ] && {
-	/opt/discord-canary --start-minimized --ignore-gpu-blocklist --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --use-gl=desktop --enable-gpu-rasterization --enable-zero-copy &
+	/usr/bin/discord-canary --start-minimized --ignore-gpu-blocklist --disable-features=UseOzonePlatform --enable-features=VaapiVideoDecoder --use-gl=desktop --enable-gpu-rasterization --enable-zero-copy &
 	/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 	$HOME/.scripts/xidlehook.sh &
 	/usr/bin/openrgb --startminimized --profile "blue" &
