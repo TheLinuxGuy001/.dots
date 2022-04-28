@@ -1,34 +1,23 @@
-# 📖 Jump to
-
-[dotfiles](https://github.com/FaarisAnsari/dotfiles#-dotfiles)
-
-[Permissions](https://github.com/FaarisAnsari/nord-dotfiles#-permissions)
-
-[Wallpapers](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-wallpapers)
-
-[Dependencies](https://github.com/FaarisAnsari/nord-dotfiles#-dependencies)
-
-[Dependencies without configs](https://github.com/FaarisAnsari/nord-dotfiles#-dependencies-without-configs)
-
-[Optional Apps](https://github.com/FaarisAnsari/nord-dotfiles#use-these-if-you-want-some-of-the-programs-that-i-use-in-the-screenshots)
-
-[Installation](https://github.com/FaarisAnsari/nord-dotfiles#%EF%B8%8F-installation)
-
-# 🔷 dotfiles
-Dotfiles for my Arch linux configurations, edited and maintained by FaarisAnsari.
+<h1 align="center">⚈ dots</h1>
+<h1 align="center">by fxzzi.</h1>
 
 ![Dotfiles](preview.png)
 
-## 🙏 Permissions
-All of these are free to use! I've uploaded them in a way where all files are where you need them to be when you clone.
+## ✔️ Installation
+
+```
+$ git clone https://github.com/Fxzzi/.dots.git & ./.dots/install
+```
+This will create symlinks and overwrite files. It will also install all packages from packages.list. Please backup your current configs before installing!
 
 ## 🖥️ Wallpapers
-These wallpapers were made with the work of catppuccinFactory!
-
-[catFactory](https://github.com/FaarisAnsari/catppuccin-factory "catFactory on GitHub")
+These wallpapers were made with the work of [Catppuccin Factory!](https://github.com/FaarisAnsari/catppuccin-factory "catFactory on GitHub")
 
 ## 👨‍💻 Dependencies
 
+<details>
+  <summary>Click to expand!</summary>
+  
 [bspwm (rounded corners)](https://github.com/phuhl/bspwm-rounded "bspwm on GitHub")
 
 [NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/ "NightTab on Firefox Webstore")
@@ -54,10 +43,13 @@ These wallpapers were made with the work of catppuccinFactory!
 [Dunst (needed for i3-volume)](https://github.com/dunst-project/dunst "Dunst on GitHub")
 
 [i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
-
+</details>
+  
 ## 👩‍💻 Other Useful Tidbits
 
-
+<details>
+  <summary>Click to expand!</summary>
+  
 [zsh](https://www.zsh.org/ "zsh")
 
 [OhMyZsh](https://github.com/ohmyzsh/ohmyzsh "OhMyZsh on GitHub")
@@ -68,9 +60,4 @@ These wallpapers were made with the work of catppuccinFactory!
 
 [Librewolf](https://librewolf.net/ "librewolf")
 
-## ✔️ Installation
-
-```
-$ git clone https://github.com/Fxzzi/.dots.git & ./.dots/install
-```
-This will create symlinks and overwrite files. It will also install all packages from packages.list. Please backup your current configs before installing!
+</details>
