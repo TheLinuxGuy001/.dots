@@ -1,7 +1,14 @@
 <h1 align="center">⚈ dots</h1>
-<h1 align="center">by fxzzi.</h1>
+<h4 align="center">by fxzzi.</h4>
 
-![Dotfiles](preview.png)
+<p align="center">
+    <a href="https://github.com/fxzzi/.dots/stargazers"><img src="https://img.shields.io/github/stars/fxzzi/.dots?colorA=1E1E2E&colorB=96CDFB&style=for-the-badge&logo=starship"></a>
+    <a href="https://github.com/fxzzi/.dots/network/members"><img src="https://img.shields.io/github/forks/fxzzi/.dots?colorA=1E1E2E&colorB=96CDFB&style=for-the-badge&logo=github"></a>
+    <a href="https://github.com/fxzzi/.dots/network/members"><img src="https://img.shields.io/badge/Works%20on%20my%20Machine-Works%20On%20My%20Machine?colorA=1E1E2E&colorB=96CDFB&style=for-the-badge&logo=egghead"></a>
+</p>
+<p align="center">
+  <img src="preview.png" alt="Preview" width="1080"/>
+</p>
 
 ## ✔️ Installation
 
@@ -13,10 +20,10 @@ This will create symlinks and overwrite files. It will also install all packages
 ## 🖥️ Wallpapers
 These wallpapers were made with the work of [Catppuccin Factory!](https://github.com/FaarisAnsari/catppuccin-factory "catFactory on GitHub")
 
-## 👨‍💻 Dependencies
+## 
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>👨‍💻 Dependencies</summary>
   
 [bspwm (rounded corners)](https://github.com/phuhl/bspwm-rounded "bspwm on GitHub")
 
@@ -44,11 +51,9 @@ These wallpapers were made with the work of [Catppuccin Factory!](https://github
 
 [i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
 </details>
-  
-## 👩‍💻 Other Useful Tidbits
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>👩‍💻 Other Useful Tidbits</summary>
   
 [zsh](https://www.zsh.org/ "zsh")
 
