@@ -71,12 +71,6 @@ These wallpapers were made with the work of catppuccinFactory!
 ## ✔️ Installation
 
 ```
-$ sudo pacman -Sy --needed git
-$ cd ~ && git clone https://github.com/FaarisAnsari/dotfiles.git
-$ cd dotfiles
-$ ln -svf .config/* ~/.config/
-$ ln -svf .fonts/* ~/.fonts/
-$ ln -svf .scripts ~/.scripts
-$ ln -svf .aliases ~/.aliases
+$ git clone https://github.com/Fxzzi/.dots.git & ./.dots/install
 ```
-This will create symlinks and overwrite files. Please backup your current configs before installing!
+This will create symlinks and overwrite files. It will also install all packages from packages.list. Please backup your current configs before installing!
