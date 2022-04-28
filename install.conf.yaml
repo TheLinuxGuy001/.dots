@@ -25,6 +25,6 @@
     ~/.zshrc: .zshrc
     ~/.Xresources: .Xresources
     ~/.imwheelrc: .imwheelrc
-
+    ~/.xinitrc: .xinitrc
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
