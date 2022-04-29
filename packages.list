@@ -1,4 +1,5 @@
 amd-ucode
+android-tools
 anydesk-bin
 apple-fonts
 aria2
@@ -8,13 +9,13 @@ automake
 base
 bison
 bottom
-bspwm-git
 catppuccin-gtk-theme
 cava
 celluloid
 cfs-zen-tweaks
 chrony
 colorpicker
+coreimage
 discord-canary
 epson-inkjet-printer-escpr2
 exa
@@ -42,13 +43,14 @@ noisetorch
 notepadqq
 nvidia
 nvidia-vaapi-driver-git
+obs-nvfbc-git
 openrgb-bin
 p7zip
 pacman-contrib
 papirus-icon-theme-stripped-git
 paru
 pavucontrol
-picom-jonaburg-git
+picom-arian8j2-git
 pkgconf
 polybar
 polymc-bin
@@ -56,7 +58,6 @@ pulseaudio-control
 qbittorrent
 reflector
 ripgrep
-simplescreenrecorder
 starship
 steam
 sxhkd
