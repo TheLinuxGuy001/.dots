@@ -1,4 +1,13 @@
 #!/bin/sh
+# see https://unix.stackexchange.com/a/295652/332452
+source /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+
+# see https://wiki.archlinux.org/title/GNOME/Keyring#xinitrc
+eval $(/usr/bin/gnome-keyring-daemon --start)
+export SSH_AUTH_SOCK
+
+# see https://github.com/NixOS/nixpkgs/issues/14966#issuecomment-520083836
+mkdir -p "$HOME"/.local/share/keyrings
 
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -8,7 +17,15 @@ sysmodmap=/etc/X11/xinit/.Xmodmap
 # merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
+
+
+
+
+
+
+
     xrdb -merge $sysresources
+
 fi
 
 if [ -f $sysmodmap ]; then
@@ -16,7 +33,15 @@ if [ -f $sysmodmap ]; then
 fi
 
 if [ -f "$userresources" ]; then
+
+
+
+
+
+
+
     xrdb -merge "$userresources"
+
 fi
 
 if [ -f "$usermodmap" ]; then
@@ -32,9 +57,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-eval $(gnome-keyring-daemon --start)
-export SSH_AUTH_SOCK
-
 $HOME/.scripts/res.sh
 xsetroot -cursor_name left_ptr
-exec bspwm
+exec bspwm 
