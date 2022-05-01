@@ -25,9 +25,7 @@ These wallpapers were made with the work of [Catppuccin Factory!](https://github
 <details>
   <summary>👨‍💻 Dependencies</summary>
   
-[bspwm (rounded corners)](https://github.com/phuhl/bspwm-rounded "bspwm on GitHub")
-
-[NightTab](https://addons.mozilla.org/en-GB/firefox/addon/nighttab/ "NightTab on Firefox Webstore")
+[bspwm](https://github.com/baskerville/bspwm "bspwm on GitHub")
 
 [Kitty](https://github.com/kovidgoyal/kitty "Kitty on GitHub")
 
@@ -35,11 +33,7 @@ These wallpapers were made with the work of [Catppuccin Factory!](https://github
 
 [Polybar](https://github.com/polybar/polybar)
 
-[neofetch](https://github.com/dylanaraps/neofetch "neofetch on GitHub")
-
-[rsfetch](https://github.com/Phate6660/rsfetch "rsfetch on GitHub")
-
-[jonaburg's rounded fix fork of Picom](https://github.com/Arian8j2/picom-jonaburg-fix "Arian8j2's fork of Picom on GitHub")
+[picom-arian8j2](https://github.com/Arian8j2/picom-jonaburg-fix "Arian8j2's fork of Picom on GitHub")
 
 [rofi](https://github.com/davatorium/rofi "rofi on GitHub")
 
@@ -47,7 +41,7 @@ These wallpapers were made with the work of [Catppuccin Factory!](https://github
 
 [bottom](https://github.com/ClementTsang/bottom "bottom on github")
 
-[Dunst (needed for i3-volume)](https://github.com/dunst-project/dunst "Dunst on GitHub")
+[Dunst](https://github.com/dunst-project/dunst "Dunst on GitHub")
 
 [i3-volume](https://github.com/hastinbe/i3-volume "i3-volume on GitHub")
 </details>
