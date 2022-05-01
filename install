@@ -27,4 +27,4 @@ sleep 1
 echo 1.
 sleep 1
 echo Installing!
-paru -Syu --needed --noconfirm - < ${BASEDIR}/packages.list
+paru -Syu --needed --noconfirm - < ${BASEDIR}/needed.list
