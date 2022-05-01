@@ -9,7 +9,7 @@
 - clean: ['~', '~/.config']
 
 - link:
-    ~/.config/picom.conf: .config/picom.conf
+    ~/.config/picom: .config/picom
     ~/.config/bottom: .config/bottom
     ~/.config/bspwm: .config/bspwm
     ~/.config/cava: .config/cava

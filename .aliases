@@ -15,6 +15,6 @@ alias tree='exa --icons --tree'
 alias dotpush='$HOME/.scripts/push.sh'
 alias bsrc="nano $HOME/.config/bspwm/bspwmrc"
 alias sxrc="nano $HOME/.config/sxhkd/sxhkdrc"
-alias picomrc="nano $HOME/.config/picom.conf"
+alias picomrc="nano $HOME/.config/picom/picom.conf"
 alias updates="checkupdates && paru -Qum"
 alias nano="nvim"

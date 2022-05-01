@@ -51,6 +51,7 @@ papirus-icon-theme-stripped-git
 paru
 pavucontrol
 picom-arian8j2-git
+pkgconf
 polybar
 polymc-bin
 pulseaudio-control
@@ -62,7 +63,6 @@ starship
 steam
 tealdeer
 timeshift
-toilet
 topgrade
 unrar
 unzip
