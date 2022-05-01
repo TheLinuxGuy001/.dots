@@ -22,7 +22,7 @@
     idle_threshold = 0
     
     ### Text ###
-    font = Iosevka Nerd Font
+    font = JetBrainsMono Nerd Font
     #line_height = 0
 
     markup = full
