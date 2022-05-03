@@ -116,7 +116,7 @@ export EDITOR='nano'
 
 source $HOME/.aliases
 
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 #rsfetch -L $HOME/dotfiles/ascii/bunny -p pacman -lNHUkdw@
 $HOME/.scripts/fetch.sh
 
