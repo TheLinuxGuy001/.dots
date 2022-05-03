@@ -1,5 +1,5 @@
-bspwm-git
-sxhkd-git
+bspwm
+sxhkd
 catppuccin-gtk-theme
 cava
 exa
@@ -9,15 +9,10 @@ kitty
 librewolf-bin
 lxappearance
 maim
-mate-polkit
 papirus-icon-theme-stripped-git
 picom-arian8j2-git
 polybar
 pulseaudio-control
-ripgrep
 rofi
-starship
-xdg-user-dirs
 xidlehook-git
-zsh-syntax-highlighting
 xorg-xinit
