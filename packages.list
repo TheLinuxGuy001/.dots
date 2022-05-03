@@ -9,14 +9,16 @@ automake
 base
 bison
 bottom
-bspwm-git
+bspwm
 catppuccin-gtk-theme
 cava
+ccache
 celluloid
 cfs-zen-tweaks
 chrony
 colorpicker
 discord-canary
+edk2-ovmf
 epson-inkjet-printer-escpr2
 exa
 flex
@@ -32,7 +34,7 @@ jdk8-openjdk
 kitty
 lib32-gamemode
 lib32-mangohud
-librewolf-bin
+librewolf
 lxappearance
 maim
 mate-polkit
