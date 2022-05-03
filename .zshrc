@@ -110,14 +110,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH=$PATH:~/.local/bin:~/bin
-export LANG=en_GB.UTF-8
-export LANGUAGE=en_GB.UTF-8
-export EDITOR='nano'  
-
 source $HOME/.aliases
-
-#eval "$(starship init zsh)"
-#rsfetch -L $HOME/dotfiles/ascii/bunny -p pacman -lNHUkdw@
 $HOME/.scripts/fetch.sh
 
 function untar(){ while [ ${#} != 0 ]; do if [ -f "${1}" ]; then case "${1}" in
