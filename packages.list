@@ -1,7 +1,6 @@
 amd-ucode
 android-tools
 apple-fonts
-aria2
 aur-auto-vote-git
 autoconf
 automake
@@ -24,6 +23,7 @@ flex
 font-manager
 gamemode
 gnome-disk-utility
+gnu-netcat
 goverlay-bin
 hplip
 i3-volume
@@ -68,6 +68,7 @@ topgrade
 unrar
 unzip
 ventoy-bin
+whoogle
 wine-staging
 xdg-user-dirs
 xf86-video-vesa
