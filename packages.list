@@ -17,6 +17,7 @@ chrony
 colorpicker
 discord-canary
 edk2-ovmf
+eog
 epson-inkjet-printer-escpr2
 exa
 flex
@@ -38,12 +39,13 @@ lxappearance
 maim
 mate-polkit
 nano
+ncdu
 neofetch
 neovim
 nerd-fonts-jetbrains-mono
 noisetorch
 notepadqq
-nvidia-beta
+nvidia
 nvidia-vaapi-driver-git
 obs-nvfbc-git
 openrgb-bin
