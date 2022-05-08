@@ -17,6 +17,7 @@ chrony
 colorpicker
 discord-canary
 edk2-ovmf
+efibootmgr
 eog
 epson-inkjet-printer-escpr2
 exa
@@ -38,6 +39,7 @@ librewolf-bin
 lxappearance
 maim
 mate-polkit
+mokutil
 nano
 ncdu
 neofetch
@@ -49,6 +51,7 @@ nvidia
 nvidia-vaapi-driver-git
 obs-nvfbc-git
 openrgb-bin
+os-prober
 p7zip
 pacman-contrib
 papirus-icon-theme-stripped-git
@@ -63,14 +66,16 @@ qbittorrent
 reflector
 ripgrep
 rofi
+sbctl
+shellcheck
 steam
+systemd-boot-pacman-hook
 tealdeer
 timeshift
 topgrade
 unrar
 unzip
 ventoy-bin
-whoogle
 wine-staging
 xdg-user-dirs
 xf86-video-vesa

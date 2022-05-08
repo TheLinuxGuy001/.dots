@@ -5,7 +5,7 @@ configuration{
     show-icons: true;
     icon-theme: "Papirus-Dark";
     terminal: "kitty";
-    drun-display-format: "{icon} {name}";
+    drun-display-format: "{icon}{name}";
     location: 0;
     disable-history: false;
     hide-scrollbar: true;

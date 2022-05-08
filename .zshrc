@@ -1,5 +1,5 @@
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
+  [[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- -keeptty >~/.xorg.log 2>&1 -- vt1 &> /dev/null
 fi
 
 # If you come from bash you might have to change your $PATH.
