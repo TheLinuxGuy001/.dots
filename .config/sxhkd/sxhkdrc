@@ -1,14 +1,14 @@
 Print
-	maim -u -B -g 2560x1440+1920+0 | xclip -selection clipboard -t image/png
+	$HOME/.scripts/sharenix/right-monitor.sh
 
 super + Print
-	maim --window $(xdotool getactivewindow) -u -B | xclip -selection clipboard -t image/png
+	$HOME/.scripts/sharenix/window.sh
 
 shift + Print
-	maim --select -u -B | xclip -selection clipboard -t image/png
+	$HOME/.scripts/sharenix/section.sh
 	
 ctrl + Print
-	maim -u -B -g 1920x1080+0+180 | xclip -selection clipboard -t image/png
+	$HOME/.scripts/sharenix/left-monitor.sh
 
 # terminal emulator
 super + t

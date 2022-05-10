@@ -73,7 +73,7 @@
 
 [notify_send_icon]
     appname = notify-send
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/bell.svg
+#    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/bell.svg
 
 [dunstify]
     appname = dunstify

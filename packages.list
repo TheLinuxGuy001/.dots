@@ -7,7 +7,7 @@ automake
 base
 bison
 bottom
-bspwm
+bspwm-rounded-corners-git
 catppuccin-gtk-theme
 cava
 ccache
@@ -67,8 +67,10 @@ reflector
 ripgrep
 rofi
 sbctl
+sharenix-git
 shellcheck
 steam
+sxhkd
 systemd-boot-pacman-hook
 tealdeer
 timeshift
