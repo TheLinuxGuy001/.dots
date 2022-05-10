@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # see https://wiki.archlinux.org/title/GNOME/Keyring#xinitrc
+
 eval $(/usr/bin/gnome-keyring-daemon --start)
 export SSH_AUTH_SOCK
 
