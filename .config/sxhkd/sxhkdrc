@@ -1,14 +1,14 @@
 Print
-	$HOME/.scripts/sharenix/right-monitor.sh
+	$HOME/.scripts/screenshot.sh --monitor1
 
 super + Print
-	$HOME/.scripts/sharenix/window.sh
+	$HOME/.scripts/screenshot.sh --active
 
 shift + Print
-	$HOME/.scripts/sharenix/section.sh
+	$HOME/.scripts/screenshot.sh --selection
 	
 ctrl + Print
-	$HOME/.scripts/sharenix/left-monitor.sh
+	$HOME/.scripts/screenshot.sh --monitor2
 
 # terminal emulator
 super + t

@@ -1,5 +1,5 @@
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  [[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- -keeptty >~/.xorg.log 2>&1 -- vt1 &> /dev/null
+  exec xinit -- vt1 > ~/.local/share/xorg/Xorg.log 2>&1
 fi
 
 # If you come from bash you might have to change your $PATH.
@@ -109,7 +109,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$PATH:~/.local/bin:~/bin
+export PATH=$PATH:~/.local/bin:~/.scripts
 source $HOME/.aliases
 $HOME/.scripts/fetch.sh
 

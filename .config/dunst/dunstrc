@@ -1,98 +1,101 @@
 [global]
-    ### Display ###
+monitor = 0
+follow = keyboard
 
-    monitor = 0
-    follow = keyboard
+width = 480
+height = 380
 
-    width = (222, 444)
-    height = (222, 444)
-    origin = top-right
-    offset = 11x58
-   
-    indicate_hidden = yes
-    shrink = true
-    transparency = 20
-    separator_height = 3
-    horizontal_padding = 8
-    frame_width = 3
-    corner_radius = 0
-    frame_color = "#96CDFB"
-    separator_color= frame
-    sort = yes
-    idle_threshold = 0
-    
-    ### Text ###
-    font = JetBrainsMono Nerd Font
-    #line_height = 0
+progress_bar = true
+progress_bar_height = 25
+progress_bar_frame_width = 3
+progress_bar_min_width = 460
+progress_bar_max_width = 480
 
-    markup = full
+dmenu = /usr/bin/rofi -show run
+browser = /usr/bin/librewolf
 
-    # The format of the message.  Possible variables are:
-    #   %a  appname
-    #   %s  summary
-    #   %b  body
-    #   %i  iconname (including its path)
-    #   %I  iconname (without its path)
-    #   %p  progress value if set ([  0%] to [100%]) or nothing
-    #   %n  progress value if set without any extra characters
-    #   %%  Literal %
-    # Markup is allowed
-    format = "<b>%s\n%b</b>"
-    alignment = left
-    show_age_threshold = 60
-    word_wrap = true
-    ellipsize = middle
-    ignore_newline = false
-    stack_duplicates = true
-    hide_duplicate_count = true
-    show_indicators = true
+indicate_hidden = true
+shrink = true
+transparency = 10
+separator_height = 3
+padding = 8
+horizontal_padding = 8
+frame_width = 3
+separator_color = frame
+frame_color = "#96CDFB"
+sort = true
+idle_threshold = 0
+font = JetBrainsMono Nerd Font 14
+line_height = 2
+markup = full
 
-    ### Icons ###
-    icon_position = left
-    max_icon_size = 80
-    icon_path = /usr/share/icons/Papirus-Dark/48x48/status/:/usr/share/icons/Papirus-Dark/48x48/devices/:/usr/share/icons/Papirus-Dark/48x48/apps
+origin = "top-right"
+offset = "20x20"
 
-    ### History ###
-    sticky_history = true
-    history_length = 20
+format = "<b>%s</b>\n%b</b>"
+alignment = left
+show_age_threshold = 60
+word_wrap = true
+ignore_newline = false
+stack_duplicates = false
+hide_duplicate_count = true
+show_indicators = true
 
-    ### Misc/Advanced ###
-    dmenu = /usr/bin/kitty -e fzf:
-    browser = /usr/bin/librewolf
-    always_run_script = false
-    title = Dunst
-    class = Dunst
-    force_xinerama = false
+icon_position = left
+max_icon_size = 120
+min_icon_size = 90
 
-[experimental]
-    per_monitor_dpi = false
+sticky_history = true
+history_length = 25
+always_run_script = true
+title = Dunst
+class = Dunst
+corner_radius = 6
+notification_limit = 1
+icon_theme = Papirus-Dark
+enable_recursive_icon_lookup = true
 
-[dunst_icon]
-    appname = dunst
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/bell.svg
+mouse_left_click = close_current
+mouse_right_click = do_action
 
-[notify_send_icon]
-    appname = notify-send
-#    new_icon = /usr/share/icons/Papirus-Dark/48x48/apps/bell.svg
-
-[dunstify]
-    appname = dunstify
-    new_icon = /usr/share/icons/Papirus-Dark/48x48/devices/audio-speaker-left-side.svg
-    highlight = "#96CDFB"
-    foreground = "#D9E0EE"  
+ignore_dbusclose = true
 
 [urgency_low]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    timeout = 5
+background = "#1E1E2E"
+foreground = "#D9E0EE"
+timeout = 4
 
 [urgency_normal]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    timeout = 5
+background = "#1E1E2E"
+foreground = "#D9E0EE"
+timeout = 6
 
 [urgency_critical]
-    background = "#1E1E2E"
-    foreground = "#D9E0EE"
-    frame_color = "#F8BD96"
-    timeout = 8
+background = "#1E1E2E"
+foreground = "#D9E0EE"  
+frame_color = "#F8BD96"
+timeout = 8
+
+[fullscreen_show_critical]
+msg_urgency = critical
+fullscreen = pushback
+
+[screenshot]
+appname = "screenshot"
+summary = "*"
+set_stack_tag = "screenshot"
+format = "<b>%s</b>\n%b"
+
+[spotify]
+appname= Spotify
+summary = "*"
+set_stack_tag = "spotify"
+format = "<b>Now Playing</b>\n%s\n%b"
+
+[notify_send]
+appname = notify-send
+default_icon = bell
+
+[librewolf]
+appname = librewolf
+new_icon = librewolf
