@@ -7,7 +7,7 @@
     <a href="https://github.com/fxzzi/.dots/network/members"><img src="https://img.shields.io/badge/Works%20on%20my%20Machine-Works%20On%20My%20Machine?colorA=1E1E2E&colorB=96CDFB&style=for-the-badge&logo=egghead"></a>
 </p>
 <p align="center">
-  <img src="preview.png" alt="Preview" width="1080"/>
+  <img src="preview.png" alt="Preview"/>
 </p>
 
 ## ✔️ Installation
