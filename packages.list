@@ -7,7 +7,7 @@ automake
 base
 bison
 bottom
-bspwm-rounded-corners-git
+bspwm
 catppuccin-gtk-theme
 cava
 ccache
@@ -24,8 +24,8 @@ exa
 flex
 font-manager
 gamemode
+gamescope
 gnu-netcat
-goverlay-bin
 hplip
 i3-volume
 i3lock-fancy-multimonitor
@@ -33,11 +33,13 @@ imwheel
 jdk8-openjdk
 kitty
 lib32-gamemode
-lib32-mangohud
+lib32-mangohud-x11
 librewolf-bin
 lxappearance
 maim
+mangohud-x11
 mate-polkit
+mesa-utils
 mokutil
 nano
 ncdu
@@ -46,7 +48,7 @@ neovim
 nerd-fonts-jetbrains-mono
 noisetorch
 notepadqq
-nvidia
+nvidia-open-dkms
 nvidia-vaapi-driver-git
 obs-nvfbc-git
 openrgb-bin
@@ -70,8 +72,6 @@ sharenix-git
 shellcheck
 spotify-adblock-git
 steam
-sxhkd
-systemd-boot-pacman-hook
 tealdeer
 timeshift
 toilet
@@ -80,6 +80,7 @@ unrar
 unzip
 ventoy-bin
 vscodium-bin
+vulkan-tools
 whoogle-git
 wine-staging
 xdg-user-dirs
@@ -116,7 +117,6 @@ xorg-xpr
 xorg-xrefresh
 xorg-xsetroot
 xorg-xvinfo
-xorg-xwayland
 xorg-xwd
 xorg-xwud
 yuzu-mainline-bin

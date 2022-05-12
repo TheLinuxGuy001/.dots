@@ -2,13 +2,13 @@
 monitor = 0
 follow = keyboard
 
-width = 480
-height = 380
+width = (240,480)
+height = 480
 
 progress_bar = true
 progress_bar_height = 25
 progress_bar_frame_width = 3
-progress_bar_min_width = 460
+progress_bar_min_width = 240
 progress_bar_max_width = 480
 
 dmenu = /usr/bin/rofi -show run
@@ -28,11 +28,12 @@ idle_threshold = 0
 font = JetBrainsMono Nerd Font 14
 line_height = 2
 markup = full
+highlight = "#96CDFB"
 
 origin = "top-right"
-offset = "20x20"
+offset = "11x58"
 
-format = "<b>%s</b>\n%b</b>"
+format = "<b>%s</b>\n%b"
 alignment = left
 show_age_threshold = 60
 word_wrap = true
@@ -42,8 +43,8 @@ hide_duplicate_count = true
 show_indicators = true
 
 icon_position = left
-max_icon_size = 120
-min_icon_size = 90
+max_icon_size = 100
+min_icon_size = 60
 
 sticky_history = true
 history_length = 25
@@ -51,7 +52,7 @@ always_run_script = true
 title = Dunst
 class = Dunst
 corner_radius = 6
-notification_limit = 1
+notification_limit = 5
 icon_theme = Papirus-Dark
 enable_recursive_icon_lookup = true
 
@@ -82,6 +83,7 @@ fullscreen = pushback
 
 [screenshot]
 appname = "screenshot"
+max_icon_size = 250
 summary = "*"
 set_stack_tag = "screenshot"
 format = "<b>%s</b>\n%b"
@@ -90,12 +92,16 @@ format = "<b>%s</b>\n%b"
 appname= Spotify
 summary = "*"
 set_stack_tag = "spotify"
-format = "<b>Now Playing</b>\n%s\n%b"
+format = "<b>Now Playing </b>%s\n%p"
 
 [notify_send]
 appname = notify-send
-default_icon = bell
+new_icon = bell
 
 [librewolf]
 appname = librewolf
 new_icon = librewolf
+
+[volume]
+summary = "Volume *"
+format = "<b>Volume</b>\n%n%%"
